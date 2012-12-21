@@ -14,4 +14,8 @@ public class Test {
 		String file1 = "nothing";
 		System.out.println("bbc");
 	}
+	
+	public void code(){
+		String b = "1";
+	}
 }
