@@ -12,5 +12,10 @@ public class Test {
 		String file = "nothing";
 		String file1 = "nothing";
 	}
+	
+	public void sample(){
+		String c = "getCode";
+		String b = "fuck";
+	}
 
 }
