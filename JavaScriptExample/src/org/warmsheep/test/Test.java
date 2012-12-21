@@ -15,15 +15,13 @@ public class Test {
 		System.out.println("bbc");
 	}
 	
-
+	
+	public void code(){
+		String b = "1";
+	}
 	public void sample(){
 		String c = "getCode";
 		String b = "fuck";
-	}
-
-
-	public void code(){
-		String b = "2";
 	}
 	
 	public void getExample(){
