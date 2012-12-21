@@ -29,4 +29,8 @@ public class Test {
 	public void getExample(){
 		
 	}
+	
+	public void testExample(){
+		
+	}
 }
