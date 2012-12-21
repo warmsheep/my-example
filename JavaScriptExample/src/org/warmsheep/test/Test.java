@@ -29,7 +29,6 @@ public class Test {
 	public void getExample(){
 		System.out.println("");
 		String b = "3";
-
 	}
 	
 	public void test(){
