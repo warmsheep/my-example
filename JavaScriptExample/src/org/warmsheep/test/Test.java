@@ -31,7 +31,7 @@ public class Test {
 	}
 	
 	public void test(){
-		
+		System.out.print("");
 	}
 	
 	public void testExample(){
