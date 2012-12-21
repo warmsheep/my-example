@@ -22,6 +22,8 @@ public class Test {
 	public void sample(){
 		String c = "getCode";
 		String b = "fuck";
+		
+		
 	}
 	
 	public void getExample(){
