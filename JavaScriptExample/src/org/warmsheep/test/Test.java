@@ -21,13 +21,13 @@ public class Test {
 	}
 	public void sample(){
 		String c = "getCode";
-		String b = "fuck";
+		String b = "fuck123";
 		
 		
 	}
 	
 	public void getExample(){
-		System.out.println("");
+		System.out.println("1232");
 		String b = "3";
 	}
 	
