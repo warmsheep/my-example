@@ -23,11 +23,13 @@ public class Test {
 
 
 	public void code(){
-		String b = "1";
+		String b = "2";
 	}
 	
 	public void getExample(){
 		System.out.println("");
+		String b = "3";
+
 	}
 	
 	public void test(){
