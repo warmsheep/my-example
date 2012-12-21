@@ -25,7 +25,7 @@ public class Test {
 	public void code(){
 		String b = "1";
 	}
-
+	
 	public void getExample(){
 		
 	}
