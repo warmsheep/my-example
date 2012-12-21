@@ -27,7 +27,7 @@ public class Test {
 	}
 	
 	public void getExample(){
-		
+		System.out.println("");
 	}
 	
 	public void test(){
