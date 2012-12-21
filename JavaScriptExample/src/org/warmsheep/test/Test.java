@@ -7,7 +7,11 @@ public class Test {
 		System.out.println("");
 
 		System.out.print("");
+
+		System.out.println();
 		String i = "3";
+		System.out.println("");
+
 	}
 
 }
