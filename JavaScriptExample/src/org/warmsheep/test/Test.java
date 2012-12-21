@@ -12,7 +12,8 @@ public class Test {
 		String i = "3";
 		System.out.println("");
 		
-		
+		String file = "nothing";
+		String file1 = "nothing";
 		System.out.println("bbc");
 
 	}
