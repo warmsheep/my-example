@@ -30,7 +30,7 @@
 	-->
 	<context-param>
 		<param-name>BIRT_VIEWER_WORKING_FOLDER</param-name>
-		<param-value></param-value>
+		<param-value>/report</param-value>
 	</context-param>
 	
 	<!--
