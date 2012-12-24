@@ -83,7 +83,8 @@
 							}
 						%>
 						<p>JRE version: <%= javaVersionMessage  %></p>
-						<p><a href="<%= request.getContextPath( ) + "/frameset?__report=testSimpleReport.rptdesign&sample=my+parameter" %>">View Example</a>
+						<p><a href="<%= request.getContextPath() + "/frameset?__report=testSimpleReport.rptdesign&sample=my+parameter" %>">Simple</a>
+						<p><a href="<%=request.getContextPath()+ "/frameset?__report=testGroupReport.rptdesign&sample=my+parameter" %>">Group</a></p>
 					</TD>
 				</TR>
 			</TBODY>
