@@ -13,8 +13,8 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/axis.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/axis-ant.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/axis.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/com.ibm.icu_4.4.2.v20110823.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/com.lowagie.text_2.1.7.v201004222200.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/commons-cli-1.0.jar"/>
