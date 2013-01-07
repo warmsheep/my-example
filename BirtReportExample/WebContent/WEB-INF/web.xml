@@ -8,7 +8,7 @@
 
     <display-name>Eclipse BIRT Report Viewer</display-name>
 
-	<!-- Default locale setting. 
+	<!-- Default locale setting.  
 	-->
 	<context-param>
 		<param-name>BIRT_VIEWER_LOCALE</param-name>
@@ -210,7 +210,7 @@
 		<url-pattern>/preview</url-pattern>
 	</servlet-mapping>
 
-	<servlet-mapping>
+	<servlet-mapping>	
 		<servlet-name>EngineServlet</servlet-name>
 		<url-pattern>/download</url-pattern>
 	</servlet-mapping>
