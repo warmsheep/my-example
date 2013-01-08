@@ -3,7 +3,7 @@ package org.warmsheep.design.mediator;
 import java.util.Random;
 
 /**
- * é”€å”®ç®¡ç†
+ * ÏúÊÛ¹ÜÀí
  * @author Warmsheep
  * @createTime Jan 7, 2013
  * @function 
@@ -17,27 +17,27 @@ public class Sale extends Colleague {
 	}
 	
 	/**
-	 * é”€å”®ç”µè„‘
+	 * ÏúÊÛµçÄÔ
 	 * @param number
 	 */
 	public void sellIBMComputer(int number){
 		mediator.sellComputer(number);
-		System.out.println("é”€å”®IBMç”µè„‘"+number+"å°");
+		System.out.println("ÏúÊÛIBMµçÄÔ"+number+"Ì¨");
 	}
 	
 	/**
-	 * åé¦ˆé”€å”®æƒ…å†µ
+	 * ·´À¡ÏúÊÛÇé¿ö
 	 * @return
 	 */
 	public int getSaleStatus(){
 		Random rand = new Random(System.currentTimeMillis());
 		int saleStatus = rand.nextInt(100);
-		System.out.println("IBMç”µè„‘çš„é”€å”®æƒ…å†µä¸º:"+saleStatus);
+		System.out.println("IBMµçÄÔµÄÏúÊÛÇé¿öÎª:"+saleStatus);
 		return saleStatus;
 	}
 	
 	/**
-	 * æŠ˜ä»·å¤„ç†
+	 * ÕÛ¼Û´¦Àí
 	 */
 	public void offSale(){
 		mediator.offSale();

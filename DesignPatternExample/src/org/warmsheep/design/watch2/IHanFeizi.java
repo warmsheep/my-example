@@ -1,7 +1,7 @@
 package org.warmsheep.design.watch2;
 
 /**
- * è¢«è§‚å¯Ÿè€…
+ * ±»¹Û²ìÕß
  * @author Warmsheep
  * @createTime Jan 7, 2013
  * @function 
@@ -10,24 +10,24 @@ package org.warmsheep.design.watch2;
 public interface IHanFeizi {
 	
 	/**
-	 * åƒæ—©é¥­
+	 * ³ÔÔç·¹
 	 */
 	void hasBreakFast();
 	
 	/**
-	 * å¢åŠ ä¸€ä¸ªè§‚å¯Ÿè€…
+	 * Ôö¼ÓÒ»¸ö¹Û²ìÕß
 	 * @param o
 	 */
 	void addObserver(ILisi o);
 	
 	/**
-	 * åˆ é™¤ä¸€ä¸ªè§‚å¯Ÿè€…
+	 * É¾³ıÒ»¸ö¹Û²ìÕß
 	 * @param o
 	 */
 	void delObserver(ILisi o);
 	
 	/**
-	 * é€šçŸ¥è§‚å¯Ÿè€…
+	 * Í¨Öª¹Û²ìÕß
 	 */
 	void notifyObservers(String context);
 	

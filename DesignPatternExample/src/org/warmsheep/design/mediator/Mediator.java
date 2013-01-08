@@ -1,7 +1,7 @@
 package org.warmsheep.design.mediator;
 
 /**
- * æŠ½è±¡çš„ä¸­ä»‹è€…ç±»
+ * ³éÏóµÄÖĞ½éÕßÀà
  * @author Warmsheep
  * @createTime Jan 7, 2013
  * @function 
@@ -9,12 +9,12 @@ package org.warmsheep.design.mediator;
  */
 public abstract class Mediator {
 
-	//å®šä¹‰åŒäº‹ç±»
+	//¶¨ÒåÍ¬ÊÂÀà
 	protected Purchase purchase;
 	protected Sale sale;
 	protected Stock stock;
 	
-	//é€šè¿‡Setteræ¥æ³¨å…¥åŒäº‹ç±»
+	//Í¨¹ıSetterÀ´×¢ÈëÍ¬ÊÂÀà
 	public Purchase getPurchase() {
 		return purchase;
 	}
@@ -35,22 +35,22 @@ public abstract class Mediator {
 	}
 	
 	/**
-	 * æ¸…ä»“
+	 * Çå²Ö
 	 */
 	public abstract void clearStock();
 	
 	/**
-	 * æŠ˜ä»·å¤„ç†
+	 * ÕÛ¼Û´¦Àí
 	 */
 	public abstract void offSale();
 	
 	/**
-	 * é‡‡è´­ç”µè„‘
+	 * ²É¹ºµçÄÔ
 	 */
 	public abstract void buyIBMComputer(int number);
 	
 	/**
-	 * é”€å”®ç”µè„‘
+	 * ÏúÊÛµçÄÔ
 	 * @param number
 	 */
 	public abstract void sellComputer(int number);

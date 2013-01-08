@@ -1,7 +1,7 @@
 package org.warmsheep.design.watch2;
 
 /**
- * è§‚å¯Ÿè€…ç±»
+ * ¹Û²ìÕßÀà
  * @author Warmsheep
  * @createTime Jan 7, 2013
  * @function 
@@ -10,16 +10,16 @@ package org.warmsheep.design.watch2;
 public class Lisi implements ILisi {
 
 	/**
-	 * ç›‘å¬åˆ°æ´»åŠ¨å°±è¡ŒåŠ¨èµ·æ¥ï¼Œå°†æ´»åŠ¨ä¸ŠæŠ¥
+	 * ¼àÌıµ½»î¶¯¾ÍĞĞ¶¯ÆğÀ´£¬½«»î¶¯ÉÏ±¨
 	 */
 	@Override
 	public void update(IHanFeizi hanfeizi,String context) {
 		// TODO Auto-generated method stub
-		System.out.println("ç›‘æ§åˆ°æ–°æ´»åŠ¨ï¼Œæ´»åŠ¨è€…ä¸ºï¼š"+hanfeizi.getName());
+		System.out.println("¼à¿Øµ½ĞÂ»î¶¯£¬»î¶¯ÕßÎª£º"+hanfeizi.getName());
 		upload(context);
 	}
 
 	public void upload(String context){
-		System.out.println("å°†æ´»åŠ¨ä¸ŠæŠ¥ï¼š"+context);
+		System.out.println("½«»î¶¯ÉÏ±¨£º"+context);
 	}
 }
