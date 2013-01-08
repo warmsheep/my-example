@@ -4,7 +4,7 @@ import java.util.Observable;
 import java.util.Observer;
 
 /**
- * è§‚å¯Ÿè€…ç±»
+ * ¹Û²ìÕßÀà
  * @author Warmsheep
  * @createTime Jan 7, 2013
  * @function 
@@ -15,12 +15,12 @@ public class LiSi implements Observer{
 	@Override
 	public void update(Observable observable,Object obj) {
 		// TODO Auto-generated method stub
-		System.out.println("è§‚å¯Ÿåˆ°æ–°çš„æ´»åŠ¨ï¼š"+obj.toString());
+		System.out.println("¹Û²ìµ½ÐÂµÄ»î¶¯£º"+obj.toString());
 		upload(obj.toString());
 	}
 	
 	public void upload(String msg){
-		System.out.println("ä¸ŠæŠ¥å†…å®¹ï¼š"+msg);
+		System.out.println("ÉÏ±¨ÄÚÈÝ£º"+msg);
 	}
 
 }

@@ -3,20 +3,20 @@ package org.warmsheep.design.watch;
 public interface IHanFeiZi {
 
 	/**
-	 * åƒé¥­
+	 * ³Ô·¹
 	 */
 	void havebreakFast();
 	/**
-	 * é‡è½½ï¼Œè¢«è§‚å¯Ÿè€…è‡ªå·±åšä¸»æ˜¯å¦é€šçŸ¥è§‚å¯Ÿè€…
+	 * ÖØÔØ£¬±»¹Û²ìÕß×Ô¼º×öÖ÷ÊÇ·ñÍ¨Öª¹Û²ìÕß
 	 * @param isnotifyObj
 	 */
 	void havebreakFast(boolean isnotifyObj);
 	/**
-	 * å¨±ä¹
+	 * ÓéÀÖ
 	 */
 	void haveFun();
 	/**
-	 * é‡è½½ï¼Œè¢«è§‚å¯Ÿè€…è‡ªå·±åšä¸»æ˜¯å¦é€šçŸ¥è§‚å¯Ÿè€…
+	 * ÖØÔØ£¬±»¹Û²ìÕß×Ô¼º×öÖ÷ÊÇ·ñÍ¨Öª¹Û²ìÕß
 	 * @param isnotifyObj
 	 */
 	void haveFun(boolean isnotifyObj);
