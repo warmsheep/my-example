@@ -1,13 +1,13 @@
-//è§†å›¾çš„ä¾‹å­
+//ÊÓÍ¼µÄÀı×Ó
 var helper = {};
 helper.formatDate = function(date){
 	alert(date);
 	alert("this is the formatDate method");
 }
-//æ§åˆ¶å™¨
+//¿ØÖÆÆ÷
 /*
 var Controller = {};
-//ä½¿ç”¨åŒ¿åå†…éƒ¨ç±»æ¥å°è£…ä¸€ä¸ªä½œç”¨åŸŸ
+//Ê¹ÓÃÄäÃûÄÚ²¿ÀàÀ´·â×°Ò»¸ö×÷ÓÃÓò
 (Controller.users = function(){
 	var nameClick = function(){
 		
@@ -16,18 +16,18 @@ var Controller = {};
 
 */
 
-//å‘æ¨¡å—åŒ–è¿›å†›ã€åˆ›å»ºç±»
+//ÏòÄ£¿é»¯½ø¾ü¡¢´´½¨Àà
 var Person = function(name,sex){
 	this.name = name;
 	this.sex = sex;
 }
 
-//åˆ›å»ºä¸€ä¸ªç±»
-var alice = new Person('alice','ç”·');
-//alert(alice.name);					//æ‰“å°alice
-//alert(alice instanceof Person);  	//æ‰“å°true
+//´´½¨Ò»¸öÀà
+var alice = new Person('alice','ÄĞ');
+//alert(alice.name);					//´òÓ¡alice
+//alert(alice instanceof Person);  	//´òÓ¡true
 
-//ç±»æ¨¡æ‹Ÿåº“
+//ÀàÄ£Äâ¿â
 var Class = function(){
 	var kclass = function(){
 		this.init.apply(this,arguments);
