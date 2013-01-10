@@ -1,4 +1,5 @@
 eclipse.preferences.version=1
-encoding//src/org/warmsheep/socket/chat/ChatClientApplet.java=GBK
-encoding//src/org/warmsheep/socket/chat/ChatServer.java=GBK
-encoding/<project>=GBK
+encoding//src/org/warmsheep/notepad/JNotePadUI.java=UTF-8
+encoding//src/org/warmsheep/socket/chat/ChatClientApplet.java=UTF-8
+encoding//src/org/warmsheep/socket/chat/ChatServer.java=UTF-8
+encoding//src/org/warmsheep/socket/chat/ChatServerMain.java=UTF-8

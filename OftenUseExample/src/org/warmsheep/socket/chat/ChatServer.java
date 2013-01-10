@@ -9,7 +9,7 @@ import java.net.SocketException;
 import java.util.Vector;
 
 /**
- * ÍøÂçÁÄÌìÊÒ·şÎñ¶Ë
+ * ç½‘ç»œèŠå¤©å®¤æœåŠ¡ç«¯
  * @author Warmsheep
  * @createTime Jan 7, 2013
  * @function 
@@ -24,44 +24,44 @@ public class ChatServer {
 	
 	public void start(){
 		ServerSocket socket = null;
-		System.out.println("·şÎñÆ÷ÒÑÆô¶¯£¬ÕıÔÚµÈ´ı¿Í»§µÄÇëÇó...");
+		System.out.println("æœåŠ¡å™¨å·²å¯åŠ¨ï¼Œæ­£åœ¨ç­‰å¾…å®¢æˆ·çš„è¯·æ±‚...");
 		try {
-			// ÉèÖÃServer¼àÌı¶Ë¿ÚºÅÎª8888, Õâ¸öÊı×Ö±ØĞë
-			// ºÍ³ÌĞòChatClientÖĞµÄport²ÎÊıÒ»ÖÂ¡£
+			// è®¾ç½®Serverç›‘å¬ç«¯å£å·ä¸º8888, è¿™ä¸ªæ•°å­—å¿…é¡»
+			// å’Œç¨‹åºChatClientä¸­çš„portå‚æ•°ä¸€è‡´ã€‚
 			socket = new ServerSocket(8888);
 		} catch (Exception e) {
-			System.out.println("·şÎñ½Ó¿Ú½¨Á¢Ê§°Ü!");
+			System.out.println("æœåŠ¡æ¥å£å»ºç«‹å¤±è´¥!");
 			return;
 		}
 		try {
 			int nid = 0;
 			while (true) {
-				// ¼àÌıÊÇ·ñÓĞĞÂChat AppletÁ¬½Óµ½Server,
-				// Ïß³ÌÔËĞĞµ½¸ÃÓï¾ä»á·âËø£¬Ö±µ½ÓĞĞÂµÄÁ¬½Ó²úÉú¡£
+				// ç›‘å¬æ˜¯å¦æœ‰æ–°Chat Appletè¿æ¥åˆ°Server,
+				// çº¿ç¨‹è¿è¡Œåˆ°è¯¥è¯­å¥ä¼šå°é”ï¼Œç›´åˆ°æœ‰æ–°çš„è¿æ¥äº§ç”Ÿã€‚
 				Socket s = socket.accept();
-				// ´´½¨Ò»¸öĞÂµÄServerThread.
+				// åˆ›å»ºä¸€ä¸ªæ–°çš„ServerThread.
 				ServerThread st = new ServerThread(s);
-				// Îª¸ÃÏß³ÌÉèÖÃÒ»¸öIDºÅ¡£
+				// ä¸ºè¯¥çº¿ç¨‹è®¾ç½®ä¸€ä¸ªIDå·ã€‚
 				st.setID(nid++);
-				// ½«¸ÃÏß³Ì¼ÓÈëµ½m_threads VectorÖĞ¡£
+				// å°†è¯¥çº¿ç¨‹åŠ å…¥åˆ°m_threads Vectorä¸­ã€‚
 				m_threads.addElement(st);
-				// Æô¶¯·şÎñÏß³Ì¡£
+				// å¯åŠ¨æœåŠ¡çº¿ç¨‹ã€‚
 				new Thread(st).start();
-				// Í¨ÖªËùÓĞChat AppletÓĞÒ»¸öĞÂµÄÍøÓÑ¼ÓÈë¡£
+				// é€šçŸ¥æ‰€æœ‰Chat Appletæœ‰ä¸€ä¸ªæ–°çš„ç½‘å‹åŠ å…¥ã€‚
 				for (int i = 0; i < m_threads.size(); i++) {
 					ServerThread st1 = (ServerThread) m_threads.elementAt(i);
-					st1.write("<·şÎñÆ÷>»¶Ó­ " + st.getID() + "ºÅÅóÓÑ½øÈëÁÄÌìÊÒ!");
+					st1.write("<æœåŠ¡å™¨>æ¬¢è¿ " + st.getID() + "å·æœ‹å‹è¿›å…¥èŠå¤©å®¤!");
 				}
-				System.out.println("½ÓÊÜ" + st.getID() + "ºÅ¿Í»§ÇëÇó");
-				System.out.println("¼ÌĞøµÈ´ıÆäËû¿Í»§µÄÇëÇó...\n");
+				System.out.println("æ¥å—" + st.getID() + "å·å®¢æˆ·è¯·æ±‚");
+				System.out.println("ç»§ç»­ç­‰å¾…å…¶ä»–å®¢æˆ·çš„è¯·æ±‚...\n");
 			}
 		} catch (Exception e) {
-			System.out.println("·şÎñÆ÷ÒÑ¹Ø±Õ...");
+			System.out.println("æœåŠ¡å™¨å·²å…³é—­...");
 		}
 	}
 	
 	/*
-	 * ¼àÌıÏß³Ì£¬¼àÌı¶ÔÓ¦µÄChat AppletÊÇ·ñÓĞĞÅÏ¢´«À´¡£
+	 * ç›‘å¬çº¿ç¨‹ï¼Œç›‘å¬å¯¹åº”çš„Chat Appletæ˜¯å¦æœ‰ä¿¡æ¯ä¼ æ¥ã€‚
 	 */
 	private final class ServerThread implements Runnable {
 		Socket m_socket = null;
@@ -69,7 +69,7 @@ public class ChatServer {
 		DataOutputStream m_out = null;
 		int m_nid;
 
-		// ³õÊ¼»¯¸ÃÏß³Ì¡£
+		// åˆå§‹åŒ–è¯¥çº¿ç¨‹ã€‚
 		public ServerThread(Socket s) {
 			m_socket = s;
 			try {
@@ -81,35 +81,35 @@ public class ChatServer {
 
 		public void run()
 		{
-			System.out.println("µÈ´ı½ø³ÌÕıÔÚÔËĞĞ");
+			System.out.println("ç­‰å¾…è¿›ç¨‹æ­£åœ¨è¿è¡Œ");
 			try {
 				while (true) {
-					// ¼àÌı¶ÔÓ¦µÄAppletÊÇ·ñ´«À´ÏûÏ¢
-					// ³ÌĞòÏİÈëµ½m_in.readUTF()ÖĞ£¬Ö±µ½ÓĞĞÅÏ¢´«À´²Å·µ»Ø¡£
+					// ç›‘å¬å¯¹åº”çš„Appletæ˜¯å¦ä¼ æ¥æ¶ˆæ¯
+					// ç¨‹åºé™·å…¥åˆ°m_in.readUTF()ä¸­ï¼Œç›´åˆ°æœ‰ä¿¡æ¯ä¼ æ¥æ‰è¿”å›ã€‚
 					String s = m_in.readUTF();
 					if (s == null)
 						break;
-					// Èç¹ûChat Applet´«À´µÄĞÅÏ¢Îª"leave",
-					// ÔòÍ¨ÖªËùÓĞÆäËûµÄµÄChat Applet×Ô¼ºÍË³öÁË¡£
+					// å¦‚æœChat Appletä¼ æ¥çš„ä¿¡æ¯ä¸º"leave",
+					// åˆ™é€šçŸ¥æ‰€æœ‰å…¶ä»–çš„çš„Chat Appletè‡ªå·±é€€å‡ºäº†ã€‚
 					if (s.trim().equals("leave"))
 						for (int i = 0; i < m_threads.size(); i++) {
 							ServerThread st = (ServerThread) m_threads.elementAt(i);
-							st.write("*¸÷Î»ÅóÓÑ£¬ " + getID() + "ºÅÅóÓÑÀë¿ªÁÄÌìÊÒ" + "£¡*");
+							st.write("*å„ä½æœ‹å‹ï¼Œ " + getID() + "å·æœ‹å‹ç¦»å¼€èŠå¤©å®¤" + "ï¼*");
 						}
 					else
-						// ÏòËùÓĞChat Applet¹ã²¥¸ÃĞÅÏ¢¡£
+						// å‘æ‰€æœ‰Chat Appletå¹¿æ’­è¯¥ä¿¡æ¯ã€‚
 						for (int i = 0; i < m_threads.size(); i++) {
 							ServerThread st = (ServerThread) m_threads.elementAt(i);
-							st.write("<" + getID() + "ÅóÓÑËµ>" + s);
+							st.write("<" + getID() + "æœ‹å‹è¯´>" + s);
 						}
 				}
 			} catch (SocketException e) {
-				System.out.println(getID() + "ºÅÅóÓÑÀë¿ªÁÄÌìÊÒ" + "£¡*");
+				System.out.println(getID() + "å·æœ‹å‹ç¦»å¼€èŠå¤©å®¤" + "ï¼*");
 			} 
 			catch (Exception e) {
 				e.printStackTrace();
 			}
-			// ´Óm_threads VectorÖĞÉ¾³ı¸ÃÏß³Ì£¬±íÊ¾¸ÃÏß³ÌÒÑ¾­Àë¿ªÁÄÌìÊÒ¡£
+			// ä»m_threads Vectorä¸­åˆ é™¤è¯¥çº¿ç¨‹ï¼Œè¡¨ç¤ºè¯¥çº¿ç¨‹å·²ç»ç¦»å¼€èŠå¤©å®¤ã€‚
 			m_threads.removeElement(this);
 			try {
 				m_socket.close();
@@ -117,7 +117,7 @@ public class ChatServer {
 			}
 		}
 
-		// ½«msgËÍ»Ø¶ÔÓ¦µÄApplet
+		// å°†msgé€å›å¯¹åº”çš„Applet
 		public void write(String msg) {
 			synchronized (m_out) {
 				try {
@@ -127,12 +127,12 @@ public class ChatServer {
 			}
 		}
 
-		public int getID() // »ñµÃ¸ÃÏß³ÌµÄID.
+		public int getID() // è·å¾—è¯¥çº¿ç¨‹çš„ID.
 		{
 			return m_nid;
 		}
 
-		public void setID(int nid) // //ÉèÖÃÏß³ÌµÄID.
+		public void setID(int nid) // //è®¾ç½®çº¿ç¨‹çš„ID.
 		{
 			m_nid = nid;
 		}

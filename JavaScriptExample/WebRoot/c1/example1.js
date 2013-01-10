@@ -1,13 +1,13 @@
-//ÊÓÍ¼µÄÀı×Ó
+//ï¿½ï¿½Í¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 var helper = {};
 helper.formatDate = function(date){
 	alert(date);
 	alert("this is the formatDate method");
 }
-//¿ØÖÆÆ÷
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 /*
 var Controller = {};
-//Ê¹ÓÃÄäÃûÄÚ²¿ÀàÀ´·â×°Ò»¸ö×÷ÓÃÓò
+//Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×°Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 (Controller.users = function(){
 	var nameClick = function(){
 		
@@ -16,18 +16,64 @@ var Controller = {};
 
 */
 
-//ÏòÄ£¿é»¯½ø¾ü¡¢´´½¨Àà
+//ï¿½ï¿½Ä£ï¿½é»¯ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 var Person = function(name,sex){
 	this.name = name;
 	this.sex = sex;
 }
 
-//´´½¨Ò»¸öÀà
-var alice = new Person('alice','ÄĞ');
-//alert(alice.name);					//´òÓ¡alice
-//alert(alice instanceof Person);  	//´òÓ¡true
+//ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½
+var alice = new Person('alice','ï¿½ï¿½');
+//alert(alice.name);					//ï¿½ï¿½Ó¡alice
+//alert(alice instanceof Person);  	//ï¿½ï¿½Ó¡true
 
-//ÀàÄ£Äâ¿â
+//ï¿½ï¿½Ä£ï¿½ï¿½ï¿½
+var Class = function(){
+	var kclass = function(){
+		this.init.apply(this,arguments);
+	};
+	kclass.prototype.init = function(){
+		alert("KClass");
+	};
+	return kclass;
+}
+
+var Person = new Class;
+Person.prototype.init = function(name,sex){
+	alert(name)
+	alert(sex)
+}
+
+//è§†å›¾çš„ä¾‹å­
+var helper = {};
+helper.formatDate = function(date){
+	alert(date);
+	alert("this is the formatDate method");
+}
+//æ§åˆ¶å™¨
+/*
+var Controller = {};
+//ä½¿ç”¨åŒ¿åå†…éƒ¨ç±»æ¥å°è£…ä¸€ä¸ªä½œç”¨åŸŸ
+(Controller.users = function(){
+	var nameClick = function(){
+		
+	};
+})(jQuery);
+
+*/
+
+//å‘æ¨¡å—åŒ–è¿›å†›ã€åˆ›å»ºç±»
+var Person = function(name,sex){
+	this.name = name;
+	this.sex = sex;
+}
+
+//åˆ›å»ºä¸€ä¸ªç±»
+var alice = new Person('alice','ç”·');
+//alert(alice.name);					//æ‰“å°alice
+//alert(alice instanceof Person);  	//æ‰“å°true
+
+//ç±»æ¨¡æ‹Ÿåº“
 var Class = function(){
 	var kclass = function(){
 		this.init.apply(this,arguments);

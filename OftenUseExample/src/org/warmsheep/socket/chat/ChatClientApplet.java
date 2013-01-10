@@ -24,8 +24,8 @@ public class ChatClientApplet extends Applet implements Runnable {
 	  JTextField jTextField1 = new JTextField();
 	  JLabel jLabel2 = new JLabel();
 	  JButton jButton1 = new JButton();
-	  DataInputStream  m_in;   //ÏûÏ¢ÊäÈëÁ÷
-	  DataOutputStream  m_out; //ÏûÏ¢Êä³öÁ÷
+	  DataInputStream  m_in;   //æ¶ˆæ¯è¾“å…¥æµ
+	  DataOutputStream  m_out; //æ¶ˆæ¯è¾“å‡ºæµ
 	  JScrollPane jScrollPane1 = new JScrollPane();
 	  JTextArea jTextArea1 = new JTextArea();
 	  JLabel jLabel3 = new JLabel();
@@ -42,16 +42,16 @@ public class ChatClientApplet extends Applet implements Runnable {
 	    m_in=null;
 	    m_out=null;
 	    try{
-	      URL  url=getCodeBase();  //»ñÈ¡applet µÄURL Öµ¡£
-	      //»ñÈ¡·şÎñÆ÷IPµØÖ·
+	      URL  url=getCodeBase();  //è·å–applet çš„URL å€¼ã€‚
+	      //è·å–æœåŠ¡å™¨IPåœ°å€
 	      InetAddress  inetaddr=InetAddress.getByName(url.getHost());
 	      Socket  m_socket;
-	      //ÆÁÄ»ÏÔÊ¾·şÎñÆ÷IPµØÖ·¡¢Í¨Ñ¶Ğ­Òé
-	      System.out.println("·şÎñÆ÷:"+inetaddr+" "+url.getHost()+" "+url.getProtocol());
-	      m_socket=new Socket(inetaddr,8888); //´´½¨Óë·şÎñÆ÷IPµØÖ·Á¬½ÓµÄÌ×½Ó¿Ú
-	      //ÔÚÌ×½Ó¿ÚÉÏ½¨Á¢ÊäÈëÁ÷
+	      //å±å¹•æ˜¾ç¤ºæœåŠ¡å™¨IPåœ°å€ã€é€šè®¯åè®®
+	      System.out.println("æœåŠ¡å™¨:"+inetaddr+" "+url.getHost()+" "+url.getProtocol());
+	      m_socket=new Socket(inetaddr,8888); //åˆ›å»ºä¸æœåŠ¡å™¨IPåœ°å€è¿æ¥çš„å¥—æ¥å£
+	      //åœ¨å¥—æ¥å£ä¸Šå»ºç«‹è¾“å…¥æµ
 	      m_in=new  DataInputStream(m_socket.getInputStream());
-	      //ÔÚÌ×½Ó¿ÚÉÏ½¨Á¢Êä³öÁ÷
+	      //åœ¨å¥—æ¥å£ä¸Šå»ºç«‹è¾“å‡ºæµ
 	      m_out=new DataOutputStream(m_socket.getOutputStream());
 	    }
 	    catch (Exception e)
@@ -69,24 +69,24 @@ public class ChatClientApplet extends Applet implements Runnable {
 	  private void jbInit() throws Exception {
 	    jLabel1.setFont(new java.awt.Font("DialogInput", 1, 20));
 	    jLabel1.setForeground(Color.red);
-	    jLabel1.setText("Ò»¶Ô¶àÁÄÌì³ÌĞòJava Applet¿Í»§¶Ë");
+	    jLabel1.setText("ä¸€å¯¹å¤šèŠå¤©ç¨‹åºJava Appletå®¢æˆ·ç«¯");
 	    jLabel1.setBounds(new Rectangle(81, 22, 358, 38));
 	    this.setBackground(UIManager.getColor("ComboBox.selectionBackground"));
 	    this.setLayout(null);
 	    jLabel2.setFont(new java.awt.Font("Dialog", 1, 16));
 	    jLabel2.setForeground(Color.blue);
-	    jLabel2.setText("ÊäÈë·¢ËÍÏûÏ¢£º");
+	    jLabel2.setText("è¾“å…¥å‘é€æ¶ˆæ¯ï¼š");
 	    jLabel2.setBounds(new Rectangle(35, 78, 124, 37));
 	    jButton1.setBackground(UIManager.getColor("OptionPane.questionDialog.titlePane.background"));
 	    jButton1.setBounds(new Rectangle(413, 77, 70, 39));
 	    jButton1.setFont(new java.awt.Font("Dialog", 1, 16));
 	    jButton1.setForeground(Color.blue);
-	    jButton1.setToolTipText("µã»÷·¢ËÍ°´Å¥¼´¿É·¢ËÍÎÄ±¾¿òÖĞÊäÈëµÄÏûÏ¢");
-	    jButton1.setText("·¢ËÍ");
+	    jButton1.setToolTipText("ç‚¹å‡»å‘é€æŒ‰é’®å³å¯å‘é€æ–‡æœ¬æ¡†ä¸­è¾“å…¥çš„æ¶ˆæ¯");
+	    jButton1.setText("å‘é€");
 	    jButton1.addActionListener(new ChatClientApplet_jButton1_actionAdapter(this));
 	    jTextField1.setBackground(new Color(182, 231, 223));
 	    jTextField1.setFont(new java.awt.Font("Dialog", 0, 17));
-	    jTextField1.setToolTipText("´ËÎÄ±¾¿òÓÃÀ´ÊäÈë·¢ËÍµÄÏûÏ¢");
+	    jTextField1.setToolTipText("æ­¤æ–‡æœ¬æ¡†ç”¨æ¥è¾“å…¥å‘é€çš„æ¶ˆæ¯");
 	    jTextField1.setBounds(new Rectangle(153, 80, 248, 35));
 	    jScrollPane1.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
 	    jScrollPane1.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
@@ -97,7 +97,7 @@ public class ChatClientApplet extends Applet implements Runnable {
 	    jTextArea1.setForeground(Color.black);
 	    jLabel3.setFont(new java.awt.Font("Dialog", 0, 16));
 	    jLabel3.setForeground(Color.blue);
-	    jLabel3.setText("ÈçÏëÀë¿ªÁÄÌìÊÒ£¬¿ÉÔÚ·¢ËÍ¿òÖĞÊäÈë×Ö·û´®leave²¢·¢ËÍ");
+	    jLabel3.setText("å¦‚æƒ³ç¦»å¼€èŠå¤©å®¤ï¼Œå¯åœ¨å‘é€æ¡†ä¸­è¾“å…¥å­—ç¬¦ä¸²leaveå¹¶å‘é€");
 	    jLabel3.setBounds(new Rectangle(62, 367, 394, 24));
 	    this.add(jLabel1, null);
 	    this.add(jLabel2, null);
@@ -106,7 +106,7 @@ public class ChatClientApplet extends Applet implements Runnable {
 	    this.add(jScrollPane1, null);
 	    this.add(jLabel3, null);
 	    jScrollPane1.getViewport().add(jTextArea1, null);
-	    //Æô¶¯¼àÌıÏß³Ì
+	    //å¯åŠ¨ç›‘å¬çº¿ç¨‹
 	    new Thread(this).start();
 	  }
 	  //Get Applet information
@@ -123,10 +123,10 @@ public class ChatClientApplet extends Applet implements Runnable {
 	        {
 	            while(true)
 	            {
-	             //¼àÌı·şÎñÕß·¢À´µÄÏûÏ¢£¬Ïß³Ì½«×èÈûÔÚ¸ÃÓï¾äÖĞ£¬Ö±µ½ÏûÏ¢µ½À´¡£
-	                String s=m_in.readUTF();  //¶ÁÒ»¸öUTF¸ñÊ½×Ö·û´®¡£
+	             //ç›‘å¬æœåŠ¡è€…å‘æ¥çš„æ¶ˆæ¯ï¼Œçº¿ç¨‹å°†é˜»å¡åœ¨è¯¥è¯­å¥ä¸­ï¼Œç›´åˆ°æ¶ˆæ¯åˆ°æ¥ã€‚
+	                String s=m_in.readUTF();  //è¯»ä¸€ä¸ªUTFæ ¼å¼å­—ç¬¦ä¸²ã€‚
 	                if(s!=null)
-	                //½«ÏûÏ¢ÏÔÊ¾ÔÚĞÅÏ¢ÏÔÊ¾´°¿ÚÖĞ¡£
+	                //å°†æ¶ˆæ¯æ˜¾ç¤ºåœ¨ä¿¡æ¯æ˜¾ç¤ºçª—å£ä¸­ã€‚
 	                jTextArea1.append(s+"\n");
 	            }
 	        }
@@ -141,16 +141,16 @@ public class ChatClientApplet extends Applet implements Runnable {
 	           try
 	           {
 	              m_out.writeUTF("leave");
-	              //ÈçÏëÀë¿ªÁÄÌìÊÒ£¬¿ÉÔÚ·¢ËÍ¿òÖĞÊäÈë×Ö·û´®leave
+	              //å¦‚æƒ³ç¦»å¼€èŠå¤©å®¤ï¼Œå¯åœ¨å‘é€æ¡†ä¸­è¾“å…¥å­—ç¬¦ä¸²leave
 	           }
 	           catch(IOException e){}
 	        }
 	    void jButton1_actionPerformed(ActionEvent e){
 	      String b = jTextField1.getText();
 	      jTextField1.setText("");
-	      //½«ÓÃ»§ÊäÈëµÄÏûÏ¢·¢ËÍ¸ø Chat Server
+	      //å°†ç”¨æˆ·è¾“å…¥çš„æ¶ˆæ¯å‘é€ç»™ Chat Server
 	      try{
-	        m_out.writeUTF(b); //Ïò·şÎñÕß·¢ËÍÒ»UTF¸ñÊ½×Ö·û´®¡£
+	        m_out.writeUTF(b); //å‘æœåŠ¡è€…å‘é€ä¸€UTFæ ¼å¼å­—ç¬¦ä¸²ã€‚
 	      }
 	      catch(IOException g){}
 	    }
