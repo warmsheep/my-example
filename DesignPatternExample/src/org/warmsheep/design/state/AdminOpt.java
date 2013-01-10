@@ -1,5 +1,12 @@
 package org.warmsheep.design.state;
 
+/**
+ * 管理员的状态
+ * @author Warmsheep
+ * @createTime Jan 10, 2013
+ * @function 
+ *
+ */
 public class AdminOpt implements IUserOpt {
 
 	@Override

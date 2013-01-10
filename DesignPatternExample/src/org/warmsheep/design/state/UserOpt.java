@@ -1,5 +1,12 @@
 package org.warmsheep.design.state;
 
+/**
+ * ÆÕÍ¨ÓÃ»§×´Ì¬
+ * @author Warmsheep
+ * @createTime Jan 10, 2013
+ * @function 
+ *
+ */
 public class UserOpt implements IUserOpt{
 
 	@Override
