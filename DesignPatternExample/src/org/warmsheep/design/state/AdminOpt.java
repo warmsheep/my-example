@@ -1,0 +1,17 @@
+package org.warmsheep.design.state;
+
+public class AdminOpt implements IUserOpt {
+
+	@Override
+	public boolean login(String userName, String password) {
+		System.out.println("管理员登录成功，跳转至后台");
+		return false;
+	}
+
+	@Override
+	public boolean submit() {
+		System.out.println("管理员提交");
+		return false;
+	}
+
+}
