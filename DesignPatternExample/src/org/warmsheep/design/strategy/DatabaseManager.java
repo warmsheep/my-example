@@ -3,11 +3,11 @@ package org.warmsheep.design.strategy;
 import java.util.List;
 
 /**
- * »·¾³Àà
+ * ç¯å¢ƒç±»
  * @author Warmsheep
  * @createTime Jan 10, 2013
  * @function 
- * »·¾³Àà£¬³ÖÓĞÒ»¸ö²ßÂÔµÄÒıÓÃ
+ * ç¯å¢ƒç±»ï¼ŒæŒæœ‰ä¸€ä¸ªç­–ç•¥çš„å¼•ç”¨
  *
  */
 public class DatabaseManager {
@@ -20,7 +20,7 @@ public class DatabaseManager {
 	}
 
 	/**
-	 * ¾ßÌåµÄ²ßÂÔ¶ÔÏó£¬Ñ¡ÔñÊ¹ÓÃÄÄÖÖÊı¾İ¿â
+	 * å…·ä½“çš„ç­–ç•¥å¯¹è±¡ï¼Œé€‰æ‹©ä½¿ç”¨å“ªç§æ•°æ®åº“
 	 */
 	private IDBManager db = null;
 
@@ -33,7 +33,7 @@ public class DatabaseManager {
 	}
 	
 	/**
-	 * Ôö¼ÓÒ»ÌõÊı¾İ
+	 * å¢åŠ ä¸€æ¡æ•°æ®
 	 * @param o
 	 * @return
 	 */
@@ -42,7 +42,7 @@ public class DatabaseManager {
 	}
 	
 	/**
-	 * ¸üĞÂÒ»ÌõÊı¾İ
+	 * æ›´æ–°ä¸€æ¡æ•°æ®
 	 * @param o
 	 * @return
 	 */
@@ -51,7 +51,7 @@ public class DatabaseManager {
 	}
 	
 	/**
-	 * É¾³ıÒ»ÌõÊı¾İ
+	 * åˆ é™¤ä¸€æ¡æ•°æ®
 	 * @param id
 	 * @return
 	 */
@@ -60,7 +60,7 @@ public class DatabaseManager {
 	}
 	
 	/**
-	 * ²éÑ¯ËùÓĞÊı¾İ
+	 * æŸ¥è¯¢æ‰€æœ‰æ•°æ®
 	 * @return
 	 */
 	public List<Object> findAll(){
@@ -68,7 +68,7 @@ public class DatabaseManager {
 	}
 	
 	/**
-	 * ²éÑ¯Ò»ÌõÊı¾İ
+	 * æŸ¥è¯¢ä¸€æ¡æ•°æ®
 	 * @param id
 	 * @return
 	 */

@@ -2,23 +2,23 @@ package org.warmsheep.design.watch2;
 
 import java.util.Vector;
 /**
- * ±»¹Û²ìÕßÀà
+ * è¢«è§‚å¯Ÿè€…ç±»
  * @author Warmsheep
  * @createTime Jan 7, 2013
  * @function 
- * VectorÊÇ»ùÓÚÏß³Ì°²È«µÄ£¬¹ÌÕâÀï²ÉÓÃÏß³Ì°²È«×÷Îª¹Û²ìÕß¼¯ºÏ¶ÔÏó
- * ÔÚ½øĞĞ»î¶¯µÄÊ±ºòµ÷ÓÃnotifyObserversÈ¥Í¨ÖªËùÓĞµÄ¹Û²ìÕß¡£
- * ½øĞĞ»î¶¯Ö®Ç°£¬Ó¦¸Ãµ÷ÓÃaddObserverÈ¥½«ĞèÒª¹Û²ìµÄ¶ÔÏó¼ÓÈëµ½¼¯ºÏÖĞ
+ * Vectoræ˜¯åŸºäºçº¿ç¨‹å®‰å…¨çš„ï¼Œå›ºè¿™é‡Œé‡‡ç”¨çº¿ç¨‹å®‰å…¨ä½œä¸ºè§‚å¯Ÿè€…é›†åˆå¯¹è±¡
+ * åœ¨è¿›è¡Œæ´»åŠ¨çš„æ—¶å€™è°ƒç”¨notifyObserverså»é€šçŸ¥æ‰€æœ‰çš„è§‚å¯Ÿè€…ã€‚
+ * è¿›è¡Œæ´»åŠ¨ä¹‹å‰ï¼Œåº”è¯¥è°ƒç”¨addObserverå»å°†éœ€è¦è§‚å¯Ÿçš„å¯¹è±¡åŠ å…¥åˆ°é›†åˆä¸­
  *
  */
 public class HanFeiZi implements IHanFeizi {
 
-	private Vector<ILisi> observer = new Vector<ILisi>();	//¹Û²ìÕß¶ÔÏóÁĞ±í
-	private String name = "º«·Ç×Ó";
+	private Vector<ILisi> observer = new Vector<ILisi>();	//è§‚å¯Ÿè€…å¯¹è±¡åˆ—è¡¨
+	private String name = "éŸ©éå­";
 	
 	@Override
 	public void hasBreakFast() {
-		notifyObservers("º«·Ç×Ó³Ô·¹ÁË");
+		notifyObservers("éŸ©éå­åƒé¥­äº†");
 	}
 
 	@Override

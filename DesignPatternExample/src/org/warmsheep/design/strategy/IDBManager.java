@@ -3,11 +3,11 @@ package org.warmsheep.design.strategy;
 import java.util.List;
 
 /**
- * ²ßÂÔµÄ½Ó¿Ú
+ * ç­–ç•¥çš„æ¥å£
  * @author Warmsheep
  * @createTime Jan 10, 2013
  * @function 
- *	¸ø³ö²ßÂÔËùĞèÊµÏÖµÄ½Ó¿Ú
+ *	ç»™å‡ºç­–ç•¥æ‰€éœ€å®ç°çš„æ¥å£
  */
 public interface IDBManager {
 

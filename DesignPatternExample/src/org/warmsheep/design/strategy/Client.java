@@ -1,7 +1,7 @@
 package org.warmsheep.design.strategy;
 
 /**
- * ¿Í»§¶Ë
+ * å®¢æˆ·ç«¯
  * @author Warmsheep
  * @createTime Jan 10, 2013
  * @function 
@@ -10,7 +10,7 @@ package org.warmsheep.design.strategy;
 public class Client {
 	
 	public static void main(String[] args) {
-		//ÔÚnewÖĞÖ¸¶¨¾ßÌåµÄ²ßÂÔ¶ÔÏó£¨Ö´ĞĞ¶ÔOracleÊı¾İµÄ²Ù×÷£©
+		//åœ¨newä¸­æŒ‡å®šå…·ä½“çš„ç­–ç•¥å¯¹è±¡ï¼ˆæ‰§è¡Œå¯¹Oracleæ•°æ®çš„æ“ä½œï¼‰
 		DatabaseManager db = new DatabaseManager(new OracleManager());
 		
 		db.add(new Object());

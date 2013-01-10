@@ -1,7 +1,7 @@
 package org.warmsheep.design.state;
 
 /**
- * ¹ÜÀíÔ±µÄ×´Ì¬
+ * ç®¡ç†å‘˜çš„çŠ¶æ€
  * @author Warmsheep
  * @createTime Jan 10, 2013
  * @function 
@@ -11,13 +11,13 @@ public class AdminOpt implements IUserOpt {
 
 	@Override
 	public boolean login(String userName, String password) {
-		System.out.println("¹ÜÀíÔ±µÇÂ¼³É¹¦£¬Ìø×ªÖÁºóÌ¨");
+		System.out.println("ç®¡ç†å‘˜ç™»å½•æˆåŠŸï¼Œè·³è½¬è‡³åå°");
 		return false;
 	}
 
 	@Override
 	public boolean submit() {
-		System.out.println("¹ÜÀíÔ±Ìá½»");
+		System.out.println("ç®¡ç†å‘˜æäº¤");
 		return false;
 	}
 

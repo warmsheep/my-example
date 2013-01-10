@@ -3,7 +3,7 @@ package org.warmsheep.design.strategy;
 import java.util.List;
 
 /**
- * SqlServerÊı¾İ¿âµÄÊµÏÖÀà
+ * SqlServeræ•°æ®åº“çš„å®ç°ç±»
  * @author Warmsheep
  * @createTime Jan 10, 2013
  * @function 
@@ -13,31 +13,31 @@ public class SqlServerManager implements IDBManager{
 
 	@Override
 	public boolean add(Object o) {
-		System.out.println("SqlServerÊı¾İ¿âÌí¼ÓÊı¾İ");
+		System.out.println("SqlServeræ•°æ®åº“æ·»åŠ æ•°æ®");
 		return true;
 	}
 
 	@Override
 	public boolean delete(int id) {
-		System.out.println("SqlServerÊı¾İ¿âÉ¾³ıÊı¾İ");
+		System.out.println("SqlServeræ•°æ®åº“åˆ é™¤æ•°æ®");
 		return true;
 	}
 
 	@Override
 	public boolean update(Object o) {
-		System.out.println("SqlServerÊı¾İ¿â¸üĞÂÊı¾İ");
+		System.out.println("SqlServeræ•°æ®åº“æ›´æ–°æ•°æ®");
 		return false;
 	}
 
 	@Override
 	public List<Object> findAll() {
-		System.out.println("SqlServerÊı¾İ¿â²éÕÒËùÓĞÊı¾İ");
+		System.out.println("SqlServeræ•°æ®åº“æŸ¥æ‰¾æ‰€æœ‰æ•°æ®");
 		return null;
 	}
 
 	@Override
 	public Object findById(int id) {
-		System.out.println("SqlServerÊı¾İ¿â²éÕÒÊı¾İ");
+		System.out.println("SqlServeræ•°æ®åº“æŸ¥æ‰¾æ•°æ®");
 		return null;
 	}
 

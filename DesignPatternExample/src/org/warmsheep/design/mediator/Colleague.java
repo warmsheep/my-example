@@ -1,7 +1,7 @@
 package org.warmsheep.design.mediator;
 
 /**
- * 抽象的同事类
+ * 鎶借薄鐨勫悓浜嬬被
  * @author Warmsheep
  * @createTime Jan 7, 2013
  * @function 

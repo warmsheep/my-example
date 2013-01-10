@@ -3,7 +3,7 @@ package org.warmsheep.design.strategy;
 import java.util.List;
 
 /**
- * MySqlÊı¾İ¿â²ßÂÔµÄÊµÏÖÀà
+ * MySqlæ•°æ®åº“ç­–ç•¥çš„å®ç°ç±»
  * @author Warmsheep
  * @createTime Jan 10, 2013
  * @function 
@@ -13,31 +13,31 @@ public class MySqlManager implements IDBManager{
 
 	@Override
 	public boolean add(Object o) {
-		System.out.println("MySqlÊı¾İ¿âÌí¼ÓÊı¾İ");
+		System.out.println("MySqlæ•°æ®åº“æ·»åŠ æ•°æ®");
 		return true;
 	}
 
 	@Override
 	public boolean delete(int id) {
-		System.out.println("MySqlÊı¾İ¿âÉ¾³ıÊı¾İ");
+		System.out.println("MySqlæ•°æ®åº“åˆ é™¤æ•°æ®");
 		return true;
 	}
 
 	@Override
 	public boolean update(Object o) {
-		System.out.println("MySqlÊı¾İ¿â¸üĞÂÊı¾İ");
+		System.out.println("MySqlæ•°æ®åº“æ›´æ–°æ•°æ®");
 		return false;
 	}
 
 	@Override
 	public List<Object> findAll() {
-		System.out.println("MySqlÊı¾İ¿â²éÕÒËùÓĞÊı¾İ");
+		System.out.println("MySqlæ•°æ®åº“æŸ¥æ‰¾æ‰€æœ‰æ•°æ®");
 		return null;
 	}
 
 	@Override
 	public Object findById(int id) {
-		System.out.println("MySqlÊı¾İ¿â²éÕÒÊı¾İ");
+		System.out.println("MySqlæ•°æ®åº“æŸ¥æ‰¾æ•°æ®");
 		return null;
 	}
 

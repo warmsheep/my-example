@@ -3,11 +3,11 @@ package org.warmsheep.design.watch;
 import java.util.Observable;
 
 /**
- * º«·Ç×Ó
+ * éŸ©éå­
  * @author Warmsheep
  * @createTime Jan 7, 2013
- * @function ±»¹Û²ìÕß
- * ¼Ì³ĞObservable£¨±»¹Û²ìÕß£©Àà
+ * @function è¢«è§‚å¯Ÿè€…
+ * ç»§æ‰¿Observableï¼ˆè¢«è§‚å¯Ÿè€…ï¼‰ç±»
  *
  */
 public class HanFeiZi extends Observable implements IHanFeiZi {
@@ -16,14 +16,14 @@ public class HanFeiZi extends Observable implements IHanFeiZi {
 	public void havebreakFast() {
 		// TODO Auto-generated method stub
 		super.setChanged();
-		super.notifyObservers("ÎÒ³Ô·¹ÁË");
+		super.notifyObservers("æˆ‘åƒé¥­äº†");
 	}
 	
 	@Override
 	public void haveFun() {
 		// TODO Auto-generated method stub
 		super.setChanged();
-		super.notifyObservers("ÎÒÓéÀÖÁË");
+		super.notifyObservers("æˆ‘å¨±ä¹äº†");
 	}
 
 	@Override
@@ -31,7 +31,7 @@ public class HanFeiZi extends Observable implements IHanFeiZi {
 		// TODO Auto-generated method stub
 		if(isnotifyObj){
 			super.setChanged();
-			super.notifyObservers("ÎÒ³Ô·¹ÁË");
+			super.notifyObservers("æˆ‘åƒé¥­äº†");
 		}
 	}
 
@@ -40,7 +40,7 @@ public class HanFeiZi extends Observable implements IHanFeiZi {
 		// TODO Auto-generated method stub
 		if(isnotifyObj){
 			super.setChanged();
-			super.notifyObservers("ÎÒÓéÀÖÁË");
+			super.notifyObservers("æˆ‘å¨±ä¹äº†");
 		}
 	}
 

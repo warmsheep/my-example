@@ -1,7 +1,7 @@
 package org.warmsheep.design.mediator;
 
 /**
- * ¿Í»§£¬³¡¾°Àà
+ * å®¢æˆ·ï¼Œåœºæ™¯ç±»
  * @author Warmsheep
  * @createTime Jan 7, 2013
  * @function 
@@ -20,11 +20,11 @@ public class Client {
 		mediator.setSale(sale);
 		mediator.setStock(stock);
 		
-		System.out.println("-----------²É¹ºÈËÔ±²É¹ºµçÄÔ-------------");
+		System.out.println("-----------é‡‡è´­äººå‘˜é‡‡è´­ç”µè„‘-------------");
 		purchase.buyIBMComputer(100);
-		System.out.println("-----------ÏúÊÛÈËÔ±ÏúÊÛµçÄÔ-------------");
+		System.out.println("-----------é”€å”®äººå‘˜é”€å”®ç”µè„‘-------------");
 		sale.sellIBMComputer(1);
-		System.out.println("------------¿â·¿ÈËÔ±ÇåÀí¿â´æ-------------");
+		System.out.println("------------åº“æˆ¿äººå‘˜æ¸…ç†åº“å­˜-------------");
 		stock.clearStock();
 	}
 }

@@ -1,7 +1,7 @@
 package org.warmsheep.design.state;
 
 /**
- * 状态的抽象接口
+ * 鐘舵�佺殑鎶借薄鎺ュ彛
  * @author Warmsheep
  * @createTime Jan 10, 2013
  * @function 

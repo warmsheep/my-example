@@ -1,7 +1,7 @@
 package org.warmsheep.design.mediator;
 
 /**
- * ¿â´æ¹ÜÀí
+ * åº“å­˜ç®¡ç†
  * @author Warmsheep
  * @createTime Jan 7, 2013
  * @function 
@@ -16,25 +16,25 @@ public class Stock extends Colleague{
 	private static int COMPUTER_NUMBER = 100;
 	
 	/**
-	 * ¿â´æÔö¼Ó
+	 * åº“å­˜å¢åŠ 
 	 * @param number
 	 */
 	public void increase(int number){
 		COMPUTER_NUMBER +=  number;
-		System.out.println("¿â´æÊıÁ¿Îª:"+COMPUTER_NUMBER);
+		System.out.println("åº“å­˜æ•°é‡ä¸º:"+COMPUTER_NUMBER);
 	}
 	
 	/**
-	 * ¿â´æ¼õÉÙ
+	 * åº“å­˜å‡å°‘
 	 * @param number
 	 */
 	public void decrease(int number){
 		COMPUTER_NUMBER -= number;
-		System.out.println("¿â´æÊıÁ¿Îª£º"+COMPUTER_NUMBER);
+		System.out.println("åº“å­˜æ•°é‡ä¸ºï¼š"+COMPUTER_NUMBER);
 	}
 	
 	/**
-	 * »ñµÃ¿â´æÊıÁ¿
+	 * è·å¾—åº“å­˜æ•°é‡
 	 * @return
 	 */
 	public int getStockNumber(){
@@ -42,10 +42,10 @@ public class Stock extends Colleague{
 	}
 	
 	/**
-	 * Çå²Ö
+	 * æ¸…ä»“
 	 */
 	public void clearStock(){
-		System.out.println("ĞèÒªÇåÀíµÄ´æ»õÊıÁ¿Îª£º"+COMPUTER_NUMBER);
+		System.out.println("éœ€è¦æ¸…ç†çš„å­˜è´§æ•°é‡ä¸ºï¼š"+COMPUTER_NUMBER);
 		mediator.clearStock();
 	}
 

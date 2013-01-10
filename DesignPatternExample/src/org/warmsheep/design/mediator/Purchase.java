@@ -1,7 +1,7 @@
 package org.warmsheep.design.mediator;
 
 /**
- * ²É¹º¹ÜÀí
+ * é‡‡è´­ç®¡ç†
  * @author Warmsheep
  * @createTime Jan 7, 2013
  * @function 
@@ -14,7 +14,7 @@ public class Purchase extends Colleague {
 	}
 	
 	/**
-	 * ÂòµçÄÔ
+	 * ä¹°ç”µè„‘
 	 * @param number
 	 */
 	public void buyIBMComputer(int number){
@@ -22,10 +22,10 @@ public class Purchase extends Colleague {
 	}
 	
 	/**
-	 * ²»ÔÙ²É¹ºµçÄÔ
+	 * ä¸å†é‡‡è´­ç”µè„‘
 	 */
 	public void refuseBuyIBM(){
-		System.out.println("²»ÔÙ²É¹ºIBMµçÄÔ");
+		System.out.println("ä¸å†é‡‡è´­IBMç”µè„‘");
 	}
 
 }

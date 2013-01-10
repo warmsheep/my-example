@@ -3,7 +3,7 @@ package org.warmsheep.design.strategy;
 import java.util.List;
 
 /**
- * OracleÊı¾İ¿â²ßÂÔµÄÊµÏÖÀà
+ * Oracleæ•°æ®åº“ç­–ç•¥çš„å®ç°ç±»
  * @author Warmsheep
  * @createTime Jan 10, 2013
  * @function 
@@ -13,31 +13,31 @@ public class OracleManager implements IDBManager{
 
 	@Override
 	public boolean add(Object o) {
-		System.out.println("OracleÊı¾İ¿âÌí¼ÓÊı¾İ");
+		System.out.println("Oracleæ•°æ®åº“æ·»åŠ æ•°æ®");
 		return true;
 	}
 
 	@Override
 	public boolean delete(int id) {
-		System.out.println("OracleÊı¾İ¿âÉ¾³ıÊı¾İ");
+		System.out.println("Oracleæ•°æ®åº“åˆ é™¤æ•°æ®");
 		return true;
 	}
 
 	@Override
 	public boolean update(Object o) {
-		System.out.println("OracleÊı¾İ¿â¸üĞÂÊı¾İ");
+		System.out.println("Oracleæ•°æ®åº“æ›´æ–°æ•°æ®");
 		return false;
 	}
 
 	@Override
 	public List<Object> findAll() {
-		System.out.println("OracleÊı¾İ¿â²éÕÒËùÓĞÊı¾İ");
+		System.out.println("Oracleæ•°æ®åº“æŸ¥æ‰¾æ‰€æœ‰æ•°æ®");
 		return null;
 	}
 
 	@Override
 	public Object findById(int id) {
-		System.out.println("OracleÊı¾İ¿â²éÕÒÊı¾İ");
+		System.out.println("Oracleæ•°æ®åº“æŸ¥æ‰¾æ•°æ®");
 		return null;
 	}
 

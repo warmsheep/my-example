@@ -4,9 +4,9 @@ public class ConcreteMediator extends Mediator {
 
 	@Override
 	public void clearStock() {
-		//²»ÒªÔÙ²É¹ºÁË
+		//ä¸è¦å†é‡‡è´­äº†
 				super.purchase.refuseBuyIBM();
-		//Çå²ÖÕÛ¼ÛÏúÊÛ
+		//æ¸…ä»“æŠ˜ä»·é”€å”®
 		super.sale.offSale();
 		
 	}
@@ -14,7 +14,7 @@ public class ConcreteMediator extends Mediator {
 	@Override
 	public void offSale() {
 		// TODO Auto-generated method stub
-		System.out.println("ÕÛ¼ÛÏúÊÛIBMµçÄÔ:"+stock.getStockNumber()+"Ì¨");
+		System.out.println("æŠ˜ä»·é”€å”®IBMç”µè„‘:"+stock.getStockNumber()+"å°");
 		super.stock.decrease(stock.getStockNumber());
 	}
 
@@ -22,13 +22,13 @@ public class ConcreteMediator extends Mediator {
 	public void buyIBMComputer(int number) {
 		// TODO Auto-generated method stub
 		int saleStatus = super.sale.getSaleStatus();
-		if(saleStatus > 80) //ÏúÊÛÇé¿öÁ¼ºÃ
+		if(saleStatus > 80) //é”€å”®æƒ…å†µè‰¯å¥½
 		{
-			System.out.println("²É¹ºIBMµçÄÔ:"+number+"Ì¨");
+			System.out.println("é‡‡è´­IBMç”µè„‘:"+number+"å°");
 			super.stock.increase(number);
 		}else {
-			int buyNumber = number/2;	//ÕÛ°ë²É¹º
-			System.out.println("²É¹ºIBMµçÄÔ:"+buyNumber + "Ì¨");
+			int buyNumber = number/2;	//æŠ˜åŠé‡‡è´­
+			System.out.println("é‡‡è´­IBMç”µè„‘:"+buyNumber + "å°");
 			super.stock.increase(buyNumber);
 		}
 	}
@@ -36,7 +36,7 @@ public class ConcreteMediator extends Mediator {
 	@Override
 	public void sellComputer(int number) {
 		// TODO Auto-generated method stub
-		//¿â´æÊıÁ¿²»¹»
+		//åº“å­˜æ•°é‡ä¸å¤Ÿ
 		if(super.stock.getStockNumber() < number){
 			super.purchase.buyIBMComputer(number);
 		}

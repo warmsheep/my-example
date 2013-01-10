@@ -1,7 +1,7 @@
 package org.warmsheep.design.watch2;
 
 /**
- * �۲��߽ӿ�
+ * 观察者接口
  * @author Warmsheep
  * @createTime Jan 7, 2013
  * @function 
@@ -10,7 +10,7 @@ package org.warmsheep.design.watch2;
 public interface ILisi {
 
 	/**
-	 * �۲쵽��ϱ�
+	 * 观察到活动上报
 	 * @param hanfeizi
 	 * @param context
 	 */

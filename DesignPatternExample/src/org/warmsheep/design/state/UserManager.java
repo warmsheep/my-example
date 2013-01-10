@@ -1,7 +1,7 @@
 package org.warmsheep.design.state;
 
 /**
- * »·¾³Àà
+ * ç¯å¢ƒç±»
  * @author Warmsheep
  * @createTime Jan 10, 2013
  * @function 
@@ -10,12 +10,12 @@ package org.warmsheep.design.state;
 public class UserManager {
 
 	private IUserOpt userOpt = null;
-	//´ú±í¸÷¸ö×´Ì¬µÄÖµ
+	//ä»£è¡¨å„ä¸ªçŠ¶æ€çš„å€¼
 	public static final int ADMIN = 0;
 	public static final int USER = 1;
 	
 	public void login(String name,String password){
-		//Í¨¹ı¶¯Ì¬»ñÈ¡×´Ì¬À´ÊµÀı»¯²»Í¬µÄÉí·İ
+		//é€šè¿‡åŠ¨æ€è·å–çŠ¶æ€æ¥å®ä¾‹åŒ–ä¸åŒçš„èº«ä»½
 		int state = getState(name);
 		if(state == ADMIN){
 			userOpt = new AdminOpt();
@@ -26,7 +26,7 @@ public class UserManager {
 	}
 	
 	private int getState(String userName){
-		System.out.println("´ÓÊı¾İ¿âÈ¡µÃ¸ÃÓÃ»§µÄÉí·İ×´Ì¬");
+		System.out.println("ä»æ•°æ®åº“å–å¾—è¯¥ç”¨æˆ·çš„èº«ä»½çŠ¶æ€");
 		return ADMIN;
 	}
 }
