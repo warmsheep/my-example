@@ -1,0 +1,1 @@
+该示例运行在windows系统下，为了和windows系统的JAVA环境以及Tomcat环境分离而重写的启动/关闭脚本。
