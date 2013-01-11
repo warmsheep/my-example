@@ -8,7 +8,6 @@ encoding//src/org/warmsheep/design/mediator/Sale.java=UTF-8
 encoding//src/org/warmsheep/design/mediator/Stock.java=UTF-8
 encoding//src/org/warmsheep/design/mediator/readme.md=UTF-8
 encoding//src/org/warmsheep/design/state/AdminOpt.java=UTF-8
-encoding//src/org/warmsheep/design/state/Client.java=UTF-8
 encoding//src/org/warmsheep/design/state/IUserOpt.java=UTF-8
 encoding//src/org/warmsheep/design/state/UserManager.java=UTF-8
 encoding//src/org/warmsheep/design/state/UserOpt.java=UTF-8
