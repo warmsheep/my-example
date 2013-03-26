@@ -1,0 +1,592 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>jc_friendlink</title>
+<link href="../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="pageHeader"></div>
+<div class="PageBody">
+	<span class="ObjectTitle">jc_friendlink  (CMS友情链接) : public  &lt;&lt;table&gt;&gt; 类</span>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">3/25/2013 10:22:37 PM</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic">Modified:</td>
+			<td class="ObjectDetailsValue">3/26/2013 3:49:08 PM</td>
+		</tr>
+		<tr style="height: 10px"><td colspan="2"></td></tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td class="ObjectDetailsValue">Warmsheep</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj02" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Phase:</td>
+			<td class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr id="proj03" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Status:</td>
+			<td class="ObjectDetailsValue">Proposed</td>
+		</tr>
+		<tr id="proj04" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Complexity:</td>
+			<td class="ObjectDetailsValue">Easy</td>
+		</tr>
+		<tr>
+			<td class="ObjectDetailsTopic"><img src="../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td class="ObjectDetailsValue"></td>
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">UUID:</td>
+			<td class="ObjectDetailsValue">{FBA3B623-3B7B-4648-BAFD-55A75D6BDD25}</td>
+		</tr>
+		<tr id="adv01" style="display: none;">
+			<td class="ObjectDetailsTopic" style="padding-left: 18px;">Appears In:</td>
+			<td class="ObjectDetailsValue"><a href="EA1.htm">jeecms</a>, <a href="EA3.htm">jeecms_site</a></td>
+		</tr>
+	</table>
+	<div class="ObjectDetailsNotes">CMS&#21451;&#24773;&#38142;&#25509;</div>
+
+	<div class="TableGroup" id="TableGroup">
+		<ul class="ItemTitle">
+			<li onClick="parent.toggleItem('Attributes');" id="AttributesTitle">变量</li>
+			<li onClick="parent.toggleItem('Operations');" id="OperationsTitle">方法</li>
+			<li onClick="parent.toggleItem('Associations到');" id="Associations到Title">Associations 到</li>
+			<li onClick="parent.toggleItem('TaggedVal');" id="TaggedValTitle">标记值</li>
+		</ul>
+<div class="ItemBody" id="AttributesTable">
+	<table border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="100%" class="TableHeading">Attribute</td>
+		</tr>
+						<tr>
+				<td width="100%" class="TableRow" valign="top"><i>public static INTEGER</i><br /><strong>&nbsp;&nbsp;friendlink_id</strong></td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageAttributes610" onclick="parent.toggleDiv('detailsDIVAttributes610','DetailsImageAttributes610')" />Details:
+						<div id="detailsDIVAttributes610" class="DetailsDiv" >
+						<i>&lt;&lt;column&gt;&gt;Ordered <br /></i>property=AutoNum=1;StartNum=1;Increment=1;<br>&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="100%" class="TableRow" valign="top"><i>public INTEGER</i><br /><strong>&nbsp;&nbsp;site_id</strong></td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageAttributes611" onclick="parent.toggleDiv('detailsDIVAttributes611','DetailsImageAttributes611')" />Details:
+						<div id="detailsDIVAttributes611" class="DetailsDiv" >
+						<i>&lt;&lt;column&gt;&gt;</i>&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="100%" class="TableRow" valign="top"><i>public INTEGER</i><br /><strong>&nbsp;&nbsp;friendlinkctg_id</strong></td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageAttributes612" onclick="parent.toggleDiv('detailsDIVAttributes612','DetailsImageAttributes612')" />Details:
+						<div id="detailsDIVAttributes612" class="DetailsDiv" >
+						<i>&lt;&lt;column&gt;&gt;</i>&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="100%" class="TableRow" valign="top"><i>public VARCHAR(150)</i><br /><strong>&nbsp;&nbsp;site_name</strong></td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageAttributes613" onclick="parent.toggleDiv('detailsDIVAttributes613','DetailsImageAttributes613')" />Details:
+						<div id="detailsDIVAttributes613" class="DetailsDiv" >
+						<i>Alias:</i> 网站名称<br><i>&lt;&lt;column&gt;&gt;</i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>备注: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			网站名称
+		</td>
+	</tr>
+</table></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="100%" class="TableRow" valign="top"><i>public VARCHAR(255)</i><br /><strong>&nbsp;&nbsp;domain</strong></td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageAttributes614" onclick="parent.toggleDiv('detailsDIVAttributes614','DetailsImageAttributes614')" />Details:
+						<div id="detailsDIVAttributes614" class="DetailsDiv" >
+						<i>Alias:</i> 网站地址<br><i>&lt;&lt;column&gt;&gt;</i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>备注: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			网站地址
+		</td>
+	</tr>
+</table></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="100%" class="TableRow" valign="top"><i>public VARCHAR(150)</i><br /><strong>&nbsp;&nbsp;logo</strong></td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageAttributes615" onclick="parent.toggleDiv('detailsDIVAttributes615','DetailsImageAttributes615')" />Details:
+						<div id="detailsDIVAttributes615" class="DetailsDiv" >
+						<i>Alias:</i> 图标<br><i>&lt;&lt;column&gt;&gt;</i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>备注: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			图标
+		</td>
+	</tr>
+</table></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="100%" class="TableRow" valign="top"><i>public VARCHAR(100)</i><br /><strong>&nbsp;&nbsp;email</strong></td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageAttributes616" onclick="parent.toggleDiv('detailsDIVAttributes616','DetailsImageAttributes616')" />Details:
+						<div id="detailsDIVAttributes616" class="DetailsDiv" >
+						<i>Alias:</i> 站长邮箱<br><i>&lt;&lt;column&gt;&gt;</i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>备注: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			站长邮箱
+		</td>
+	</tr>
+</table></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="100%" class="TableRow" valign="top"><i>public VARCHAR(255)</i><br /><strong>&nbsp;&nbsp;description</strong></td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageAttributes617" onclick="parent.toggleDiv('detailsDIVAttributes617','DetailsImageAttributes617')" />Details:
+						<div id="detailsDIVAttributes617" class="DetailsDiv" >
+						<i>Alias:</i> 描述<br><i>&lt;&lt;column&gt;&gt;</i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>备注: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			描述
+		</td>
+	</tr>
+</table></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="100%" class="TableRow" valign="top"><i>public INTEGER</i><br /><strong>&nbsp;&nbsp;views</strong></td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageAttributes618" onclick="parent.toggleDiv('detailsDIVAttributes618','DetailsImageAttributes618')" />Details:
+						<div id="detailsDIVAttributes618" class="DetailsDiv" >
+						<i>Alias:</i> 点击次数<br><i>&lt;&lt;column&gt;&gt;<i>Initial:</i> 0<br></i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>备注: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			点击次数
+		</td>
+	</tr>
+</table></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="100%" class="TableRow" valign="top"><i>public CHAR(1)</i><br /><strong>&nbsp;&nbsp;is_enabled</strong></td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageAttributes619" onclick="parent.toggleDiv('detailsDIVAttributes619','DetailsImageAttributes619')" />Details:
+						<div id="detailsDIVAttributes619" class="DetailsDiv" >
+						<i>Alias:</i> 是否显示<br><i>&lt;&lt;column&gt;&gt;<i>Initial:</i> '1'<br></i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>备注: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			是否显示
+		</td>
+	</tr>
+</table></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>			<tr>
+				<td width="100%" class="TableRow" valign="top"><i>public INTEGER</i><br /><strong>&nbsp;&nbsp;priority</strong></td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageAttributes620" onclick="parent.toggleDiv('detailsDIVAttributes620','DetailsImageAttributes620')" />Details:
+						<div id="detailsDIVAttributes620" class="DetailsDiv" >
+						<i>Alias:</i> 排列顺序<br><i>&lt;&lt;column&gt;&gt;<i>Initial:</i> 10<br></i><div class="ObjectDetailsNotes"><table>
+	<tr>
+		<td valign="top">
+			<i>备注: </i><span style="margin-left: .4cm;"> </span>
+		</td>
+		<td>
+			排列顺序
+		</td>
+	</tr>
+</table></div>
+
+						</div>
+					</div>
+				</td>
+			</tr>
+	</table>
+</div>
+<div class="ItemBody" id="OperationsTable">
+	<table border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="100%" class="TableHeading">Operation</td>
+		</tr>
+						<tr>
+				<td width="100%" class="TableRow">
+					<i>public</i><br />
+					<strong>PK_jc_friendlink</strong>(<br />
+					<a href="#" onclick="parent.toggleData('param{202ADE7A-076E-4ff0-B6CB-A3C6B79C0B77}')" style="text-decoration: none; color: #000000;"><img src="../images/plus03.gif" align="absmiddle" id="param{202ADE7A-076E-4ff0-B6CB-A3C6B79C0B77}" border="0" />friendlink_id: INTEGER</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{202ADE7A-076E-4ff0-B6CB-A3C6B79C0B77}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{202ADE7A-076E-4ff0-B6CB-A3C6B79C0B77}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{202ADE7A-076E-4ff0-B6CB-A3C6B79C0B77}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{202ADE7A-076E-4ff0-B6CB-A3C6B79C0B77}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageOperations621" onclick="parent.toggleDiv('detailsDIVOperations621','DetailsImageOperations621')" />Details:
+						<div id="detailsDIVOperations621" class="DetailsDiv" >
+					<i> &lt;&lt;PK&gt;&gt; </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>public</i><br />
+					<strong>fk_jc_ctg_friendlink</strong>(<br />
+					<a href="#" onclick="parent.toggleData('param{162D35ED-AA7C-49b8-8302-B3098887DBFB}')" style="text-decoration: none; color: #000000;"><img src="../images/plus03.gif" align="absmiddle" id="param{162D35ED-AA7C-49b8-8302-B3098887DBFB}" border="0" />friendlinkctg_id: INTEGER</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{162D35ED-AA7C-49b8-8302-B3098887DBFB}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{162D35ED-AA7C-49b8-8302-B3098887DBFB}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{162D35ED-AA7C-49b8-8302-B3098887DBFB}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{162D35ED-AA7C-49b8-8302-B3098887DBFB}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageOperations622" onclick="parent.toggleDiv('detailsDIVOperations622','DetailsImageOperations622')" />Details:
+						<div id="detailsDIVOperations622" class="DetailsDiv" >
+					<i> &lt;&lt;index&gt;&gt; </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>public</i><br />
+					<strong>fk_jc_friendlink_site</strong>(<br />
+					<a href="#" onclick="parent.toggleData('param{9644BBF5-7192-43fb-B4F8-E472D8080885}')" style="text-decoration: none; color: #000000;"><img src="../images/plus03.gif" align="absmiddle" id="param{9644BBF5-7192-43fb-B4F8-E472D8080885}" border="0" />site_id: INTEGER</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{9644BBF5-7192-43fb-B4F8-E472D8080885}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{9644BBF5-7192-43fb-B4F8-E472D8080885}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{9644BBF5-7192-43fb-B4F8-E472D8080885}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{9644BBF5-7192-43fb-B4F8-E472D8080885}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageOperations623" onclick="parent.toggleDiv('detailsDIVOperations623','DetailsImageOperations623')" />Details:
+						<div id="detailsDIVOperations623" class="DetailsDiv" >
+					<i> &lt;&lt;index&gt;&gt; </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>public</i><br />
+					<strong>fk_jc_ctg_friendlink</strong>(<br />
+					<a href="#" onclick="parent.toggleData('param{A758727F-B253-4292-B176-4FC7D1DFB3D5}')" style="text-decoration: none; color: #000000;"><img src="../images/plus03.gif" align="absmiddle" id="param{A758727F-B253-4292-B176-4FC7D1DFB3D5}" border="0" />friendlinkctg_id: INTEGER</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{A758727F-B253-4292-B176-4FC7D1DFB3D5}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{A758727F-B253-4292-B176-4FC7D1DFB3D5}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{A758727F-B253-4292-B176-4FC7D1DFB3D5}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{A758727F-B253-4292-B176-4FC7D1DFB3D5}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageOperations624" onclick="parent.toggleDiv('detailsDIVOperations624','DetailsImageOperations624')" />Details:
+						<div id="detailsDIVOperations624" class="DetailsDiv" >
+					<i> &lt;&lt;FK&gt;&gt; </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" class="TableRow">
+					<i>public</i><br />
+					<strong>fk_jc_friendlink_site</strong>(<br />
+					<a href="#" onclick="parent.toggleData('param{A4266606-0827-468d-8C95-B34DFFC4C3FE}')" style="text-decoration: none; color: #000000;"><img src="../images/plus03.gif" align="absmiddle" id="param{A4266606-0827-468d-8C95-B34DFFC4C3FE}" border="0" />site_id: INTEGER</a>, 
+					<table border="0" cellspacing="0" cellpadding="0" class="Table" style="padding: 4px 18px;">
+						<tr id="param{A4266606-0827-468d-8C95-B34DFFC4C3FE}00" style="display: none;">
+							<td width="50"><strong>Default:</strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{A4266606-0827-468d-8C95-B34DFFC4C3FE}01" style="display: none;">
+							<td width="50"><strong>Kind:</strong></td>
+							<td>in</td>
+						</tr>
+						<tr id="param{A4266606-0827-468d-8C95-B34DFFC4C3FE}02" style="display: none;">
+							<td width="50"><strong>Stereotype: </strong></td>
+							<td></td>
+						</tr>
+						<tr id="param{A4266606-0827-468d-8C95-B34DFFC4C3FE}03" style="display: none;">
+							<td width="50"></td>
+							<td></td>
+						</tr>
+					</table>
+):
+				</td>
+			</tr>
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="1">
+					<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageOperations625" onclick="parent.toggleDiv('detailsDIVOperations625','DetailsImageOperations625')" />Details:
+						<div id="detailsDIVOperations625" class="DetailsDiv" >
+					<i> &lt;&lt;FK&gt;&gt; </i>
+					<table>
+						<tr>
+							<td valign = "top"><i></i><span style="margin-left: .7cm;"> </span></td>
+							<td></td>
+						</tr>
+					</table>
+					
+					
+					
+						</div>
+					</div>
+				</td>
+			</tr>
+
+		</table>
+</div>		<div class="ItemBody" id="Associations到Table">
+			<table border="0" cellspacing="0" cellpadding="0" class="Table">
+				<tr>
+					<td width="40%" class="TableHeading">Element</td>
+					<td width="30%" class="TableHeading">Source Role</td>
+					<td width="30%" class="TableHeading">Target Role</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA56.htm">«table» jc_site</a><br />
+						类 &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> fk_jc_friendlink_site<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> PK_jc_site<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageLink626" onclick="parent.toggleDiv('detailsDIVLink626','DetailsImageLink626')" />Details:
+							<div id="detailsDIVLink626" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td width="40%" class="TableRow" valign="top">
+						<a href="EA41.htm">«table» jc_friendlink_ctg</a><br />
+						类 &nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> fk_jc_ctg_friendlink<br />
+						&nbsp;
+					</td>
+					<td width="30%" class="TableRow" valign="top">
+						<strong>Name:</strong> PK_jc_friendlink_ctg<br />
+						&nbsp;	
+					</td>
+				</tr>
+				<tr>
+					<td class="TableRowBottomDashed"  colspan="3">
+						<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageLink627" onclick="parent.toggleDiv('detailsDIVLink627','DetailsImageLink627')" />Details:
+							<div id="detailsDIVLink627" class="DetailsDiv" >
+							&nbsp;
+							</div>
+						</div>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+<div class="ItemBody" id="TaggedValTable">
+	<table align="center" border="0" cellspacing="0" cellpadding="0" class="Table">
+		<tr>
+			<td width="50%" class="TableHeading">Tag</td>
+			<td width="50%" class="TableHeading">Value</td>
+		</tr>
+					<tr>
+				<td width="50%" class="TableRow" valign="top">Type</td>
+				<td width="50%" class="TableRow" valign="top">InnoDB</td>
+			</tr>	
+			<tr>
+				<td class="TableRowBottomDashed"  colspan="2">
+					<div class="DetailsDivParent"><img src="../images/minus03.gif" align="absmiddle" id="DetailsImageScenario630" onclick="parent.toggleDiv('detailsDIVScenario630','DetailsImageScenario630')" />Details:
+						<div id="detailsDIVScenario630" class="DetailsDiv" >
+						&nbsp;
+						</div>
+					</div>
+				</td>
+			</tr>
+	</table>
+</div>	</div>
+<div class="pageFooter"></div>
+ 
+</body>
+</html>
