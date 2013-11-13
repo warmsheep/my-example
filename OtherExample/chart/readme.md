@@ -1,0 +1,2 @@
+解决BootCss网站中Chart.js图表绘制工具对IE8的兼容性
+只修改了excanvas.js，对其增加了fillText的支持和动态canvas的getContext()方法支持
