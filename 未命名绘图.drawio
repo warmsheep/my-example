@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-14T08:36:01.342Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Heshc3WgwChX7jyofglO" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-14T08:38:43.284Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="HSuVqnVlAkEQBug8OLLq" version="20.4.0" type="github">
   <diagram name="Page-1" id="82e54ff1-d628-8f03-85c4-9753963a91cd">
     <mxGraphModel dx="1033" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" background="none" math="0" shadow="0">
       <root>
@@ -97,6 +97,9 @@
         <mxCell id="1QkbV5pq_GTxgiB5CUqq-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1QkbV5pq_GTxgiB5CUqq-14" target="1QkbV5pq_GTxgiB5CUqq-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="1QkbV5pq_GTxgiB5CUqq-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1QkbV5pq_GTxgiB5CUqq-14" target="1QkbV5pq_GTxgiB5CUqq-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="1QkbV5pq_GTxgiB5CUqq-14" value="&lt;h1&gt;10-11&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1266" y="250" width="215" height="120" as="geometry" />
         </mxCell>
@@ -118,11 +121,14 @@
         <mxCell id="1QkbV5pq_GTxgiB5CUqq-24" value="&lt;h1&gt;09-30&lt;/h1&gt;&lt;h1&gt;&lt;p style=&quot;font-size: 13px; font-weight: 400;&quot;&gt;接口开发完成，前端09-30开始联调部分接口。&lt;span style=&quot;background-color: initial;&quot;&gt;固收涉及14个接口以及新审批流程接口。&lt;/span&gt;&lt;/p&gt;&lt;/h1&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="545.5" y="50" width="215" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="1QkbV5pq_GTxgiB5CUqq-26" value="&lt;h1&gt;10-10&lt;/h1&gt;&lt;p&gt;提测审批&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" vertex="1" parent="1">
+        <mxCell id="1QkbV5pq_GTxgiB5CUqq-26" value="&lt;h1&gt;10-10 新增需求&lt;/h1&gt;&lt;p&gt;提测审批&lt;/p&gt;&lt;p&gt;新增益民需求，新建补丁版本开发投入。&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1012" y="50" width="215" height="120" as="geometry" />
         </mxCell>
         <mxCell id="1QkbV5pq_GTxgiB5CUqq-28" value="&lt;h1&gt;10-10&lt;/h1&gt;&lt;div&gt;开始测试固收设置和&lt;/div&gt;&lt;div&gt;9月创金、中科需求。&lt;/div&gt;&lt;div&gt;存在部分功能开发自测不充分。&lt;/div&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="810" y="630" width="215" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1QkbV5pq_GTxgiB5CUqq-30" value="&lt;h1&gt;10-12 新增需求&lt;/h1&gt;&lt;p&gt;增加需求，&lt;span style=&quot;background-color: initial;&quot;&gt;周五上腾讯云。&lt;/span&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1266" y="50" width="215" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
