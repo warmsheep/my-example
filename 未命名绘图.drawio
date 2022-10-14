@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-14T08:12:45.163Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="5g5Oh-20FuseOSSxlBaP" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-14T08:19:45.475Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="q8Nc8JukrDZFd3Bk8hD8" version="20.4.0" type="github">
   <diagram name="Page-1" id="82e54ff1-d628-8f03-85c4-9753963a91cd">
     <mxGraphModel dx="1033" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" background="none" math="0" shadow="0">
       <root>
@@ -55,7 +55,7 @@
         <mxCell id="1QkbV5pq_GTxgiB5CUqq-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4ec97bd9e5d20128-18" target="1QkbV5pq_GTxgiB5CUqq-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4ec97bd9e5d20128-18" value="&lt;h1&gt;09-22/10-09,11&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
+        <mxCell id="4ec97bd9e5d20128-18" value="&lt;h1&gt;09-22/10-09,11&lt;/h1&gt;&lt;p&gt;存在提测延期，自测不充分问题&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="773" y="250" width="215" height="120" as="geometry" />
         </mxCell>
         <mxCell id="1QkbV5pq_GTxgiB5CUqq-2" value="" style="line;strokeWidth=2;html=1;fillColor=none;fontSize=28;fontColor=#004D99;strokeColor=#004D99;" vertex="1" parent="1">
@@ -88,7 +88,10 @@
         <mxCell id="1QkbV5pq_GTxgiB5CUqq-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1QkbV5pq_GTxgiB5CUqq-12" target="1QkbV5pq_GTxgiB5CUqq-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1QkbV5pq_GTxgiB5CUqq-12" value="&lt;h1&gt;09-23,10-10&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" vertex="1" parent="1">
+        <mxCell id="1QkbV5pq_GTxgiB5CUqq-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1QkbV5pq_GTxgiB5CUqq-12" target="1QkbV5pq_GTxgiB5CUqq-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1QkbV5pq_GTxgiB5CUqq-12" value="&lt;h1&gt;10-10&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1040" y="430" width="215" height="120" as="geometry" />
         </mxCell>
         <mxCell id="1QkbV5pq_GTxgiB5CUqq-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1QkbV5pq_GTxgiB5CUqq-14" target="1QkbV5pq_GTxgiB5CUqq-9">
@@ -103,13 +106,13 @@
         <mxCell id="1QkbV5pq_GTxgiB5CUqq-16" value="&lt;h1&gt;10-14&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1720" y="250" width="215" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="1QkbV5pq_GTxgiB5CUqq-18" value="&lt;h1&gt;2022-09-21&lt;/h1&gt;&lt;p&gt;陈丹撤出，固收任务转谭晋开发。&lt;span style=&quot;background-color: initial;&quot;&gt;报出风险，时间不够无法完成9.26号提测。&lt;/span&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" vertex="1" parent="1">
+        <mxCell id="1QkbV5pq_GTxgiB5CUqq-18" value="&lt;h1&gt;09-21 人员撤出&lt;/h1&gt;&lt;p&gt;陈丹撤出，固收任务转谭晋开发。&lt;span style=&quot;background-color: initial;&quot;&gt;报出风险，时间不够无法完成9.26号提测。&lt;/span&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="545" y="630" width="215" height="120" as="geometry" />
         </mxCell>
         <mxCell id="1QkbV5pq_GTxgiB5CUqq-20" value="&lt;h1&gt;10-09&lt;/h1&gt;&lt;h1&gt;&lt;p style=&quot;font-size: 13px; font-weight: 400;&quot;&gt;提测固收设置，继续联调审批&lt;/p&gt;&lt;/h1&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="773" y="50" width="215" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="1QkbV5pq_GTxgiB5CUqq-22" value="&lt;h1&gt;10-09&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" vertex="1" parent="1">
+        <mxCell id="1QkbV5pq_GTxgiB5CUqq-22" value="&lt;h1&gt;10-10 人员出差&lt;/h1&gt;&lt;p&gt;文成栋出差创金现场，主要完成现场联调工作，导致版本缺陷修复效率慢&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1040" y="630" width="215" height="120" as="geometry" />
         </mxCell>
         <mxCell id="1QkbV5pq_GTxgiB5CUqq-24" value="&lt;h1&gt;09-30&lt;/h1&gt;&lt;h1&gt;&lt;p style=&quot;font-size: 13px; font-weight: 400;&quot;&gt;接口开发完成，前端09-30开始联调部分接口。&lt;span style=&quot;background-color: initial;&quot;&gt;固收涉及14个接口以及新审批流程接口。&lt;/span&gt;&lt;/p&gt;&lt;/h1&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" vertex="1" parent="1">
@@ -117,6 +120,9 @@
         </mxCell>
         <mxCell id="1QkbV5pq_GTxgiB5CUqq-26" value="&lt;h1&gt;10-10&lt;/h1&gt;&lt;p&gt;提测审批&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1012" y="50" width="215" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1QkbV5pq_GTxgiB5CUqq-28" value="&lt;h1&gt;10-09&lt;/h1&gt;&lt;div&gt;开始测试固收设置和&lt;/div&gt;&lt;div&gt;9月创金、中科需求。&lt;/div&gt;&lt;div&gt;存在部分功能开发自测不充分。&lt;/div&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="630" width="215" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
