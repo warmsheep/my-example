@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-15T02:15:58.285Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="5ZufsrqTVIDF4xhhF7_x" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-15T02:23:01.175Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Cs1VwuNQi0eJbwEZ91gU" version="20.4.0" type="github">
   <diagram name="Page-1" id="82e54ff1-d628-8f03-85c4-9753963a91cd">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" background="none" math="0" shadow="0">
       <root>
@@ -168,8 +168,8 @@
         <mxCell id="1XZhd70f5apsSwwagIJ_-4" value="&lt;h1&gt;10-18&lt;/h1&gt;Oracle数据库版本验证完之后发布。&lt;br&gt;问题8：迭代计划中未列出非功能性需求及回归验证时间。" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="2015" y="250" width="215" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="1XZhd70f5apsSwwagIJ_-7" value="&amp;nbsp; 设计？" style="ellipse;whiteSpace=wrap;html=1;fontSize=28;verticalAlign=top;fillColor=none;strokeColor=#004D99;fontColor=#004D99;strokeWidth=2;labelBackgroundColor=default;spacingTop=8;" vertex="1" parent="1">
-          <mxGeometry x="725" y="560" width="120" height="60" as="geometry" />
+        <mxCell id="1XZhd70f5apsSwwagIJ_-7" value="&amp;nbsp; 设计评审？" style="ellipse;whiteSpace=wrap;html=1;fontSize=28;verticalAlign=top;fillColor=none;strokeColor=#004D99;fontColor=#004D99;strokeWidth=2;labelBackgroundColor=default;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="710" y="560" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="1XZhd70f5apsSwwagIJ_-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -181,7 +181,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1XZhd70f5apsSwwagIJ_-11" value="&amp;nbsp; 代码走查？" style="ellipse;whiteSpace=wrap;html=1;fontSize=28;verticalAlign=top;fillColor=none;strokeColor=#004D99;fontColor=#004D99;strokeWidth=2;labelBackgroundColor=default;spacingTop=8;" vertex="1" parent="1">
-          <mxGeometry x="910" y="560" width="190" height="60" as="geometry" />
+          <mxGeometry x="910" y="560" width="190" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
