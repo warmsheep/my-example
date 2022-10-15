@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-15T04:13:47.838Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="lDc-yJeJb6fwXFA9LQYS" version="20.4.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-15T04:14:17.959Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="oGlpkFXXy9YH1ve2PL5h" version="20.4.0" type="github" pages="2">
   <diagram name="组织架构" id="97916047-d0de-89f5-080d-49f4d83e522f">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -180,7 +180,7 @@
         <mxCell id="-Otp7HsSo6Mg-eEIJlSa-10" value="测试经理&#xa;谢珍" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="-Otp7HsSo6Mg-eEIJlSa-1">
           <mxGeometry x="842" y="615.5" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-Otp7HsSo6Mg-eEIJlSa-11" value="测试工程师" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="-Otp7HsSo6Mg-eEIJlSa-1">
+        <mxCell id="-Otp7HsSo6Mg-eEIJlSa-11" value="测试工程师&#xa;李马烈" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="-Otp7HsSo6Mg-eEIJlSa-1">
           <mxGeometry x="842" y="705.5" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-Otp7HsSo6Mg-eEIJlSa-12" value="QA&#xa;龙琴" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="-Otp7HsSo6Mg-eEIJlSa-1">
