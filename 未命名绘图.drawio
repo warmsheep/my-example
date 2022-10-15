@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-15T01:30:24.840Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="UbU1fTTtLmd6URpQ1C54" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-15T01:40:10.210Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="gIEGTFcSYboR0TLC42t7" version="20.4.0" type="github">
   <diagram name="Page-1" id="82e54ff1-d628-8f03-85c4-9753963a91cd">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" background="none" math="0" shadow="0">
       <root>
@@ -31,14 +31,14 @@
         <mxCell id="4ec97bd9e5d20128-13" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#61BAFF;fontSize=28;fontColor=#004D99;strokeWidth=3;strokeColor=#004D99;" parent="1" vertex="1">
           <mxGeometry x="870" y="395" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="4ec97bd9e5d20128-14" value="&lt;h1&gt;2022-09-19&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
+        <mxCell id="4ec97bd9e5d20128-14" value="&lt;h1&gt;2022-09-19&lt;/h1&gt;&lt;p&gt;需求范围确定，开发人员的迭代任务及工作量未能及时安排。&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="93" y="430" width="215" height="120" as="geometry" />
         </mxCell>
         <mxCell id="1QkbV5pq_GTxgiB5CUqq-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4ec97bd9e5d20128-16" target="4ec97bd9e5d20128-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4ec97bd9e5d20128-16" value="&lt;h1&gt;09-20/09-22&lt;/h1&gt;&lt;p&gt;.&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="319" y="250" width="215" height="120" as="geometry" />
+        <mxCell id="4ec97bd9e5d20128-16" value="&lt;h1&gt;09-20&lt;/h1&gt;&lt;p&gt;需求评审时开发人员参与度不足，部分未准备完成，导致后续09-22、23重新讲解.&lt;/p&gt;&lt;p&gt;问题：需求准备不充分，人员召集补全，需求问题不能在评审会及时提出，需求评审未能达到效果&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="319" y="200" width="215" height="170" as="geometry" />
         </mxCell>
         <mxCell id="1QkbV5pq_GTxgiB5CUqq-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4ec97bd9e5d20128-17" target="1QkbV5pq_GTxgiB5CUqq-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -106,10 +106,13 @@
         <mxCell id="1XZhd70f5apsSwwagIJ_-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1QkbV5pq_GTxgiB5CUqq-15" target="1XZhd70f5apsSwwagIJ_-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1QkbV5pq_GTxgiB5CUqq-15" value="&lt;h1&gt;10-13&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
+        <mxCell id="1QkbV5pq_GTxgiB5CUqq-15" value="&lt;h1&gt;10-13&lt;/h1&gt;&lt;p&gt;回归测试发现部分功能缺陷，没有对应人员解决。&lt;/p&gt;&lt;p&gt;问题：人力安排存在问题。&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1492" y="430" width="215" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="1QkbV5pq_GTxgiB5CUqq-16" value="&lt;h1&gt;10-15&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
+        <mxCell id="1XZhd70f5apsSwwagIJ_-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1QkbV5pq_GTxgiB5CUqq-16" target="1XZhd70f5apsSwwagIJ_-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1QkbV5pq_GTxgiB5CUqq-16" value="&lt;h1&gt;10-15&lt;/h1&gt;&lt;p&gt;发布mysql版本，腾讯云。支持产品提供给客户试用。&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1720" y="250" width="215" height="120" as="geometry" />
         </mxCell>
         <mxCell id="1QkbV5pq_GTxgiB5CUqq-18" value="&lt;h1&gt;09-21 人员撤出&lt;/h1&gt;&lt;p&gt;陈丹撤出，固收任务转谭晋开发。&lt;span style=&quot;background-color: initial;&quot;&gt;报出风险，时间不够无法完成9.26号提测。&lt;/span&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
@@ -133,8 +136,11 @@
         <mxCell id="1QkbV5pq_GTxgiB5CUqq-30" value="&lt;h1&gt;10-12 新增需求&lt;/h1&gt;&lt;p&gt;增加需求，&lt;span style=&quot;background-color: initial;&quot;&gt;周五上腾讯云。&lt;/span&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1266" y="50" width="215" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="1XZhd70f5apsSwwagIJ_-1" value="&lt;h1&gt;10-14&lt;/h1&gt;&lt;p&gt;出现多条页面样式、历史遗留问题、新功能开发关联问题。紧急解决。&lt;/p&gt;&lt;p&gt;测试组提出按新流程，需要提前一天封板，全量功能回归测试后发布。&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1491" y="630" width="218" height="170" as="geometry" />
+        <mxCell id="1XZhd70f5apsSwwagIJ_-1" value="&lt;h1&gt;10-14&lt;/h1&gt;&lt;p&gt;出现多条页面样式、历史遗留问题、新功能开发关联问题。紧急解决。&lt;/p&gt;&lt;p&gt;测试组提出按新流程，需要提前一天封板，全量功能回归测试后发布。&lt;/p&gt;&lt;p&gt;问题：迭代计划中未规划封板、全量功能回归事项。&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1491" y="630" width="218" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="1XZhd70f5apsSwwagIJ_-4" value="&lt;h1&gt;10-18&lt;/h1&gt;遗留Oracle数据库版本验证完之后发布。&lt;br&gt;问题：迭代计划中未列出非功能性需求。" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2015" y="250" width="215" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
