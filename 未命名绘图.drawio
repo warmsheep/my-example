@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-15T01:53:03.548Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="B25dJv7MUVNnZUb78All" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-15T01:58:51.712Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="zLPfNFKNxK9nVWsLV925" version="20.4.0" type="github">
   <diagram name="Page-1" id="82e54ff1-d628-8f03-85c4-9753963a91cd">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" background="none" math="0" shadow="0">
       <root>
@@ -56,7 +56,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4ec97bd9e5d20128-18" value="&lt;h1&gt;09-22&lt;/h1&gt;&lt;p&gt;功能提测延期，且开发测试时间压缩，导致自测不充分。&lt;/p&gt;&lt;p&gt;10-09，10-11 分批提测功能&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="773" y="220" width="215" height="150" as="geometry" />
+          <mxGeometry x="773" y="240" width="215" height="130" as="geometry" />
         </mxCell>
         <mxCell id="1QkbV5pq_GTxgiB5CUqq-2" value="" style="line;strokeWidth=2;html=1;fillColor=none;fontSize=28;fontColor=#004D99;strokeColor=#004D99;" parent="1" vertex="1">
           <mxGeometry x="1040" y="400" width="1000" height="10" as="geometry" />
@@ -115,8 +115,8 @@
         <mxCell id="1QkbV5pq_GTxgiB5CUqq-16" value="&lt;h1&gt;10-15&lt;/h1&gt;&lt;p&gt;发布mysql版本，腾讯云。支持产品提供给客户试用。&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1720" y="250" width="215" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="1QkbV5pq_GTxgiB5CUqq-18" value="&lt;h1&gt;09-21 人员撤出&lt;/h1&gt;&lt;p&gt;陈丹撤出，固收任务转谭晋开发。开发人员&lt;span style=&quot;background-color: initial;&quot;&gt;报出风险，时间不够无法完成9.26号提测。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;问题：人力撤出，没有及时补充，没有其他预案。&lt;/span&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="545" y="630" width="215" height="160" as="geometry" />
+        <mxCell id="1QkbV5pq_GTxgiB5CUqq-18" value="&lt;h1&gt;09-21 人员撤出&lt;/h1&gt;&lt;p&gt;陈丹撤出，固收任务转谭晋开发。开发人员&lt;span style=&quot;background-color: initial;&quot;&gt;报出风险，时间不够无法完成09-26号提测，&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;延期至09-30日联调。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;问题：人力撤出没有提前沟通，没有及时补充，且没有其他预案。&lt;/span&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="545" y="630" width="215" height="170" as="geometry" />
         </mxCell>
         <mxCell id="1QkbV5pq_GTxgiB5CUqq-20" value="&lt;h1&gt;10-09&lt;/h1&gt;&lt;h1&gt;&lt;p style=&quot;font-size: 13px; font-weight: 400;&quot;&gt;提测固收设置，继续联调审批&lt;/p&gt;&lt;/h1&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="773" y="50" width="215" height="120" as="geometry" />
@@ -127,8 +127,8 @@
         <mxCell id="1QkbV5pq_GTxgiB5CUqq-24" value="&lt;h1&gt;09-30&lt;/h1&gt;&lt;h1&gt;&lt;p style=&quot;font-size: 13px; font-weight: 400;&quot;&gt;接口开发完成，前端09-30开始联调部分接口。&lt;span style=&quot;background-color: initial;&quot;&gt;固收涉及14个接口以及新审批流程接口。&lt;/span&gt;&lt;/p&gt;&lt;/h1&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="545.5" y="50" width="215" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="1QkbV5pq_GTxgiB5CUqq-26" value="&lt;h1&gt;10-10 新增需求&lt;/h1&gt;&lt;p&gt;提测审批&lt;/p&gt;&lt;p&gt;新增益民需求，新建补丁版本开发投入。&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="1012" y="50" width="215" height="120" as="geometry" />
+        <mxCell id="1QkbV5pq_GTxgiB5CUqq-26" value="&lt;h1&gt;10-10 新增需求&lt;/h1&gt;&lt;p&gt;10-10 提测审批&lt;/p&gt;&lt;p&gt;新增益民需求，新建补丁版本开发投入。&lt;/p&gt;&lt;p&gt;问题：需求变更需要提前通知，需要统一控制。&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="1012" y="10" width="215" height="160" as="geometry" />
         </mxCell>
         <mxCell id="1QkbV5pq_GTxgiB5CUqq-28" value="&lt;h1&gt;10-10&lt;/h1&gt;&lt;div&gt;开始测试固收设置和&lt;/div&gt;&lt;div&gt;9月创金、中科需求。&lt;/div&gt;&lt;div&gt;存在部分功能开发自测不充分。&lt;/div&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="810" y="630" width="215" height="120" as="geometry" />
