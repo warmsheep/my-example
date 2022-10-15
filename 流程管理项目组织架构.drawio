@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-15T03:39:49.565Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="GoxO3ZxRMQHbUVhBHbx5" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-15T03:42:10.404Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Zqu59diNZoX81Cid7r_Y" version="20.4.0" type="github">
   <diagram name="组织架构" id="97916047-d0de-89f5-080d-49f4d83e522f">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry x="662" y="345.5" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7" value="项目管理小组" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="990" y="345.5" width="200" height="60" as="geometry" />
+          <mxGeometry x="1080" y="345.5" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8" value="产品经理" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="281" y="614.5" width="200" height="60" as="geometry" />
@@ -143,7 +143,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2ZdTbuTW2iWV9-Ta_4-5-60" value="客户项目经理" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="337" y="345.5" width="200" height="60" as="geometry" />
+          <mxGeometry x="280" y="345.5" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
