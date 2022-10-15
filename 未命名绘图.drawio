@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-15T01:50:47.825Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="mX1S2pgA9N1InAvkGx-p" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-15T01:53:03.548Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="B25dJv7MUVNnZUb78All" version="20.4.0" type="github">
   <diagram name="Page-1" id="82e54ff1-d628-8f03-85c4-9753963a91cd">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" background="none" math="0" shadow="0">
       <root>
@@ -55,8 +55,8 @@
         <mxCell id="1QkbV5pq_GTxgiB5CUqq-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4ec97bd9e5d20128-18" target="1QkbV5pq_GTxgiB5CUqq-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4ec97bd9e5d20128-18" value="&lt;h1&gt;09-22/10-09,11&lt;/h1&gt;&lt;p&gt;存在提测延期，自测不充分问题&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="773" y="250" width="215" height="120" as="geometry" />
+        <mxCell id="4ec97bd9e5d20128-18" value="&lt;h1&gt;09-22&lt;/h1&gt;&lt;p&gt;功能提测延期，且开发测试时间压缩，导致自测不充分。&lt;/p&gt;&lt;p&gt;10-09，10-11 分批提测功能&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="773" y="220" width="215" height="150" as="geometry" />
         </mxCell>
         <mxCell id="1QkbV5pq_GTxgiB5CUqq-2" value="" style="line;strokeWidth=2;html=1;fillColor=none;fontSize=28;fontColor=#004D99;strokeColor=#004D99;" parent="1" vertex="1">
           <mxGeometry x="1040" y="400" width="1000" height="10" as="geometry" />
