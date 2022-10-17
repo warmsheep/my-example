@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-17T02:54:13.296Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="_0yiSxiO22XpAPL_gUoW" version="20.4.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-17T02:56:22.186Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="OeiMJzX2uNX2yvxQXu_D" version="20.4.1" type="github" pages="2">
   <diagram name="流程管理-迭代过程" id="Cju7qxX5kNdrJIgJLR-6">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" background="none" math="0" shadow="0">
       <root>
@@ -122,6 +122,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="G-hiDil9l3wNj4hIYnq8-1" value="缺失" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1XZhd70f5apsSwwagIJ_-8">
+          <mxGeometry x="0.2955" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="4ec97bd9e5d20128-1" value="" style="line;strokeWidth=2;html=1;fillColor=none;fontSize=28;fontColor=#004D99;strokeColor=#004D99;" parent="1" vertex="1">
           <mxGeometry x="40" y="400" width="1000" height="10" as="geometry" />
         </mxCell>
@@ -242,7 +247,7 @@
         <mxCell id="1XZhd70f5apsSwwagIJ_-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1QkbV5pq_GTxgiB5CUqq-15" target="1XZhd70f5apsSwwagIJ_-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1QkbV5pq_GTxgiB5CUqq-15" value="&lt;h1&gt;10-13&lt;/h1&gt;&lt;p&gt;回归测试发现部分功能缺陷，没有对应人员解决。所有后端问题高峰时20+只有一个人投入处理。&lt;/p&gt;&lt;p&gt;&lt;b&gt;问题6&lt;/b&gt;：人力协调问题。&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
+        <mxCell id="1QkbV5pq_GTxgiB5CUqq-15" value="&lt;h1&gt;10-13&lt;/h1&gt;&lt;p&gt;回归测试部分功能缺陷，没有人解决。所有后端问题高峰时20+个只有一个人投入处理。&lt;/p&gt;&lt;p&gt;&lt;b&gt;问题6&lt;/b&gt;：人力协调问题。&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1492" y="430" width="215" height="150" as="geometry" />
         </mxCell>
         <mxCell id="1QkbV5pq_GTxgiB5CUqq-16" value="&lt;h1&gt;10-16&lt;/h1&gt;&lt;p&gt;发布mysql版本，腾讯云。支持产品提供给客户试用。&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
@@ -263,7 +268,7 @@
         <mxCell id="1QkbV5pq_GTxgiB5CUqq-26" value="&lt;h1&gt;10-10 新增需求&lt;/h1&gt;&lt;p&gt;10-10 提测审批&lt;/p&gt;&lt;p&gt;新增益民需求，新建补丁版本开发投入。&lt;/p&gt;&lt;p&gt;&lt;b&gt;问题5&lt;/b&gt;：需求变更需要提前通知，需要统一控制。&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1012" y="10" width="215" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="1QkbV5pq_GTxgiB5CUqq-28" value="&lt;h1&gt;10-10&lt;/h1&gt;&lt;div&gt;开始测试固收设置和&lt;span style=&quot;background-color: initial;&quot;&gt;9月创金、中科需求。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;存在部分功能开发自测不充分。&lt;/div&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
+        <mxCell id="1QkbV5pq_GTxgiB5CUqq-28" value="&lt;h1&gt;10-10&lt;/h1&gt;&lt;div&gt;开始测试固收设置和&lt;span style=&quot;background-color: initial;&quot;&gt;9月创金、中科需求。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;存在部分功能开发自测不充分，缺陷问题较多。&lt;/div&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1266.5" y="630" width="215" height="120" as="geometry" />
         </mxCell>
         <mxCell id="1QkbV5pq_GTxgiB5CUqq-30" value="&lt;h1&gt;10-12 新增需求&lt;/h1&gt;&lt;p&gt;增加需求，&lt;span style=&quot;background-color: initial;&quot;&gt;周五上腾讯云。支持客户试用，高优先级。&lt;/span&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
@@ -282,6 +287,11 @@
             <Array as="points">
               <mxPoint x="1007" y="405" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G-hiDil9l3wNj4hIYnq8-2" value="缺失" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1XZhd70f5apsSwwagIJ_-10">
+          <mxGeometry x="0.1475" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="1XZhd70f5apsSwwagIJ_-11" value="&amp;nbsp; 代码走查？" style="ellipse;whiteSpace=wrap;html=1;fontSize=28;verticalAlign=top;fillColor=none;strokeColor=#004D99;fontColor=#004D99;strokeWidth=2;labelBackgroundColor=default;spacingTop=8;" parent="1" vertex="1">
