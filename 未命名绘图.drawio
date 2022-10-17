@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-17T04:15:11.619Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="0PgrivE1_DJxAgUUsrVb" version="20.4.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-17T04:44:56.601Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="yBxrlWG7IU7Es2zoqJAT" version="20.4.1" type="github" pages="2">
   <diagram name="流程管理-迭代过程" id="Cju7qxX5kNdrJIgJLR-6">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" background="none" math="0" shadow="0">
       <root>
@@ -110,7 +110,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="过程分析" id="82e54ff1-d628-8f03-85c4-9753963a91cd">
-    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1278" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -166,7 +166,7 @@
         <mxCell id="4ec97bd9e5d20128-13" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#61BAFF;fontSize=28;fontColor=#004D99;strokeWidth=3;strokeColor=#004D99;" parent="1" vertex="1">
           <mxGeometry x="870" y="395" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="4ec97bd9e5d20128-14" value="&lt;h1&gt;09-19&lt;/h1&gt;&lt;p&gt;&lt;b&gt;问题1&lt;/b&gt;：人员的迭代任务及工作内容未能及时安排，还有上个版本遗留的工作在解决。&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
+        <mxCell id="4ec97bd9e5d20128-14" value="&lt;h1&gt;09-19&lt;/h1&gt;&lt;p&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;问题1&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;：人员的迭代任务及工作内容未能及时安排，还有上个版本遗留的工作在解决。&lt;/span&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="93" y="430" width="215" height="120" as="geometry" />
         </mxCell>
         <mxCell id="4ec97bd9e5d20128-16" value="&lt;h1&gt;09-20&lt;/h1&gt;&lt;p&gt;需求评审时开发人员参与不足，部分需求未准备完成，导致后续09-22、23重新讲解需求.&lt;/p&gt;&lt;p&gt;&lt;b&gt;问题2&lt;/b&gt;：需求准备不充分，人员没有全部召集，导致需求问题不能在评审会及时提出，需求评审未能达到效果。&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" parent="1" vertex="1">
