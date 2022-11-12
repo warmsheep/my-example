@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-21T11:58:41.871Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="NoHHRDDhVgjUlnZodZ3S" version="20.4.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-11-12T13:46:08.144Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="xNleJp5AKwPqbdoZds5T" version="20.5.3" type="github" pages="3">
   <diagram name="组织架构" id="97916047-d0de-89f5-080d-49f4d83e522f">
-    <mxGraphModel dx="1278" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1278" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -43,9 +43,9 @@
             <mxPoint x="122" y="165.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="33" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;dashed=1;strokeColor=#23445D;" parent="1" source="2" target="7" edge="1">
+        <mxCell id="33" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;dashed=1;strokeColor=#23445D;" parent="1" target="7" edge="1">
           <mxGeometry x="22" y="165.5" width="100" height="100" as="geometry">
-            <mxPoint x="22" y="265.5" as="sourcePoint" />
+            <mxPoint x="772" y="270" as="sourcePoint" />
             <mxPoint x="122" y="165.5" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1062" y="295.5" />
@@ -130,14 +130,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2ZdTbuTW2iWV9-Ta_4-5-60" value="客户项目经理" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="2ZdTbuTW2iWV9-Ta_4-5-60" value="客户项目管理团队" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="280" y="345.5" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="项目组成员" id="5OrGie-fMNYxFhnlQmPq">
-    <mxGraphModel dx="1278" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1278" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="-Otp7HsSo6Mg-eEIJlSa-0" />
         <mxCell id="-Otp7HsSo6Mg-eEIJlSa-1" parent="-Otp7HsSo6Mg-eEIJlSa-0" />
@@ -274,7 +274,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="项目组成员-新华项目" id="CRZWNueGQJ2Rhh2OV7q2">
-    <mxGraphModel dx="1278" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1278" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="_RSfKALDUNZ9YUiBA33G-0" />
         <mxCell id="_RSfKALDUNZ9YUiBA33G-1" parent="_RSfKALDUNZ9YUiBA33G-0" />
@@ -419,10 +419,10 @@
             <mxPoint x="882" y="797" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tRTWCQmQZI-O_j76JECl-0" value="销售负责人&#xa;邹黎明" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="_RSfKALDUNZ9YUiBA33G-1">
+        <mxCell id="tRTWCQmQZI-O_j76JECl-0" value="销售负责人&#xa;邹黎明" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="_RSfKALDUNZ9YUiBA33G-1" vertex="1">
           <mxGeometry x="1240" y="345.5" width="200" height="64.5" as="geometry" />
         </mxCell>
-        <mxCell id="tRTWCQmQZI-O_j76JECl-1" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;dashed=1;strokeColor=#23445D;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_RSfKALDUNZ9YUiBA33G-1" source="_RSfKALDUNZ9YUiBA33G-2">
+        <mxCell id="tRTWCQmQZI-O_j76JECl-1" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;dashed=1;strokeColor=#23445D;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="_RSfKALDUNZ9YUiBA33G-1" source="_RSfKALDUNZ9YUiBA33G-2" edge="1">
           <mxGeometry x="29" y="181.5" width="100" height="100" as="geometry">
             <mxPoint x="769" y="271.5" as="sourcePoint" />
             <mxPoint x="1337" y="351.5" as="targetPoint" />
